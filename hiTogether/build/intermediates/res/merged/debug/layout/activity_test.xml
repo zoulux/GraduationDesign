@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.lyy.hitogether"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/id_bt_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试" />
+
+    <ImageView
+        android:id="@+id/id_iv_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_btn_bg_color"
+        android:src="@drawable/ic_menu_emoticons" />
+
+    <com.lyy.hitogether.view.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hot"
+        app:auto_play="false" />
+
+    <Button
+        android:id="@+id/id_bt_test_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

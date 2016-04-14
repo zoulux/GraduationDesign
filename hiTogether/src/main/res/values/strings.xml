@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">乐友游</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+
+    <!-- activity_main -->
+    <string name="activity_main_ChangeColorIconWithText_id_one_lyman_text">发需求</string>
+    <string name="activity_main_ChangeColorIconWithText_id_two_lyman_text">找向导</string>
+    <string name="activity_main_ChangeColorIconWithText_id_three_lyman_text">会话</string>
+
+    <!-- ActivityLogin -->
+    <string name="login_can_not_login">忘记密码？</string>
+    <string name="login_new_user">新用户</string>
+
+    <!-- my_login_view -->
+    <string name="login_view_user_name">乐悠游帐号</string>
+    <string name="login_view_user_passsword">密码</string>
+    <string name="login_view_bt_text">登录</string>
+    <string name="desc">黄山是中国着名风景区之一，世界游览胜地。登黄山可从前山或后山上。慈光阁是前山票房，今天我们就从前山上。大家跟着我横穿公路走台阶道。前面就是半山寺。半山寺因为在玉屏楼和慈光阁中间而得名，半山寺为刘伯承手书，寺前可看金鸡叫天门等景点。
+
+　　现在我们进入玉屏景区。看，这座就是天都峰。它位于黄山东南部，西对莲花峰，东连钵盂峰，离玉屏峰约1公里。天都峰为黄山三大主峰之一，36大峰之一，海拔1810米。古称“群仙所都”，意为天上都会，故取名“天都峰”。此峰特色是健骨竦桀，卓立地表，险峭雄奇，气势博大，在黄山群峰中，最为雄伟壮丽。与莲花峰、光明顶并称为黄山三大主峰。天都古时无路，难登峰顶。天都峰另有仙桃石、天梯、鱼背等奇景，以及探海松、舞松等奇松。峰壁巨岩上，有“登峰造极”等石刻。</string>
+
+</resources>

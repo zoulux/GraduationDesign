@@ -1,0 +1,418 @@
+[
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_sync_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_sync_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_done_white_36dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_done_white_36dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_menu_share_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pageview_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_pageview_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_fullscreen_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_fullscreen_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_share_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_share_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_rp_back.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_rp_back.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\picture_unselected.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\picture_unselected.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_menu_forward.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_menu_forward.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pictures_selected.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\pictures_selected.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_expand_more_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_expand_more_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_home_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_expand_more_grey600_36dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_expand_more_grey600_36dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yes.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\yes.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_off_focused_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_input_add.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_input_add.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\account_icon.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\account_icon.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_like.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_like.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dir_choose.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\dir_choose.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_settings_applications_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_settings_applications_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_get_app_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_get_app_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_close_bg_tap1.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_close_bg_tap1.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_on_focused_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hot.gif",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\hot.gif"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_sync_green_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_sync_green_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_grade_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_grade_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_chevron_right_grey600_36dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_chevron_right_grey600_36dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_floor_mid.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_floor_mid.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone.jpg",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\phone.jpg"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p1.jpg",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\p1.jpg"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\no.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\no.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_room_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_room_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_rp_reply_nor.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_rp_reply_nor.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_more_vert_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_more_vert_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_indicator.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\edit_indicator.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_off_pressed_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_last_normal.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\list_item_last_normal.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_unlike.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_unlike.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\perm_group_location.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\perm_group_location.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_menu_black_36dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_menu_black_36dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_chevron_right_grey600_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_chevron_right_grey600_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_fullscreen_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_fullscreen_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_more_horiz_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_more_horiz_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_first_normal.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\list_item_first_normal.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_floor_sgl.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_floor_sgl.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_on_pressed_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_expand_more_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_expand_more_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_indicator_rotate.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\base_library_pullToRefresh_chenyoca\\unspecified\\res\\drawable-hdpi-v4\\default_indicator_rotate.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_settings_input_antenna_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_settings_input_antenna_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_list_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_rp_reply_pre.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_rp_reply_pre.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_default_icon.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_default_icon.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_favorite_outline_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_favorite_outline_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p3.jpg",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\p3.jpg"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pageview_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_pageview_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_back_grey600_36dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_arrow_back_grey600_36dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_retrun.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_retrun.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_refresh_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_refresh_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_floor_1st.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_floor_1st.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_home_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_indicator_arrow.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\base_library_pullToRefresh_chenyoca\\unspecified\\res\\drawable-hdpi-v4\\default_indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p4.jpg",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\p4.jpg"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_more_vert_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_more_vert_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic_dir.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\pic_dir.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_share_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_share_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\switch_draw_menu.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\switch_draw_menu.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_favorite_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_favorite_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_grade_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_grade_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_rp_chacc.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_rp_chacc.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_floor_end.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_floor_end.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_add.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\default_add.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_tabbg.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_tabbg.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_single_normal.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\list_item_single_normal.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_back_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_arrow_back_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_info_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_vip.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_vip.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_middle_normal.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\list_item_middle_normal.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_toolbar_comment.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_toolbar_comment.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_settings_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_settings_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info_outline_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_info_outline_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_search_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_search_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_more_horiz_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_more_horiz_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_menu_search_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_menu_search_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_chevron_right_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_chevron_right_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\girl.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\girl.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pictures_no.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\pictures_no.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pointer.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\pointer.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_on_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_refresh_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_refresh_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_tabbg_1.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_tabbg_1.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_off_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_popview.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_popview.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_back_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_arrow_back_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_search_black_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_search_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_rp_reply.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_rp_reply.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\u13.jpg",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\u13.jpg"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p2.jpg",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\p2.jpg"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_toolbar_divier.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_toolbar_divier.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_settings_applications_white_48dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_settings_applications_white_48dp.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yuan.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\yuan.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main2.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\main2.png"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\edit_indicator.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\edit_indicator.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\group_divider.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\group_divider.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\guideflag.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\guideflag.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\no_praise.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\no_praise.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\account_icon.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\account_icon.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_check_buttonless_on.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\btn_check_buttonless_on.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\search_clear_normal.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\search_clear_normal.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\prasise.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\prasise.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\search_clear_pressed.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\search_clear_pressed.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\arrow.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\default_avarter.jpg",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-ldpi\\default_avarter.jpg"
+    }
+]

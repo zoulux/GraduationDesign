@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hiTogether/src/main/java/com/lyy/hitogether/adapter/ImageAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hiTogether/src/main/java/com/lyy/hitogether/bean/FolderBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hiTogether/src/main/java/com/lyy/hitogether/bean/ThirdFragmentBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hiTogether/src/main/java/com/lyy/hitogether/util/ImageLoader.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hiTogether/src/main/java/com/lyy/hitogether/util/SPUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hiTogether/src/main/java/com/lyy/hitogether/view/ChangeColorIconWithText.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

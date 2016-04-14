@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="anim_type">
+        <item>我的订单</item>
+        <item>我的服务</item>
+        <item>我的标签</item>
+        <item>我的相册</item>
+        <item>我的群组</item>
+        <item>我的评论</item>
+        <item>我的收藏</item>
+        <item>个人设置</item>
+        <item>关于我们</item>
+        <item>检查更新</item>
+        <item>退出登录</item>
+    </string-array>
+    <integer-array name="rc_emoji_code">
+            <item>0x1f60a</item>
+            <item>0x1f628</item>
+            <item>0x1f60d</item>
+            <item>0x1f633</item>
+            <item>0x1f60e</item>
+            <item>0x1f62d</item>
+            <item>0x1f60c</item>
+            <item>0x1f635</item>
+            <item>0x1f634</item>
+            <item>0x1f622</item>
+            <item>0x1f605</item>
+            <item>0x1f621</item>
+            <item>0x1f61c</item>
+            <item>0x1f600</item>
+            <item>0x1f632</item>
+            <item>0x1f61f</item>
+            <item>0x1f624</item>
+            <item>0x1f61e</item>
+            <item>0x1f62b</item>
+            <item>0x1f623</item>
+            <item>0x1f608</item>
+            <item>0x1f609</item>
+            <item>0x1f62f</item>
+            <item>0x1f615</item>
+            <item>0x1f630</item>
+            <item>0x1f60b</item>
+            <item>0x1f61d</item>
+            <item>0x1f613</item>
+            <item>0x1f603</item>
+            <item>0x1f602</item>
+            <item>0x1f618</item>
+            <item>0x1f612</item>
+            <item>0x1f60f</item>
+            <item>0x1f636</item>
+            <item>0x1f631</item>
+            <item>0x1f616</item>
+            <item>0x1f629</item>
+            <item>0x1f614</item>
+            <item>0x1f611</item>
+            <item>0x1f61a</item>
+            <item>0x1f62a</item>
+            <item>0x1f607</item>
+            <item>0x1f64a</item>
+            <item>0x1f44a</item>
+            <item>0x1f44e</item>
+            <item>0x261d</item>
+            <item>0x270c</item>
+            <item>0x1f62c</item>
+            <item>0x1f637</item>
+            <item>0x1f648</item>
+            <item>0x1f44c</item>
+            <item>0x1f44f</item>
+            <item>0x270a</item>
+            <item>0x1f4aa</item>
+            <item>0x1f606</item>
+            <item>0x263a</item>
+            <item>0x1f649</item>
+            <item>0x1f44d</item>
+            <item>0x1f64f</item>
+            <item>0x270b</item>
+            <item>0x2600</item>
+            <item>0x2615</item>
+            <item>0x26c4</item>
+            <item>0x1f4da</item>
+            <item>0x1f381</item>
+            <item>0x1f389</item>
+            <item>0x1f366</item>
+            <item>0x2601</item>
+            <item>0x2744</item>
+            <item>0x26a1</item>
+            <item>0x1f4b0</item>
+            <item>0x1f382</item>
+            <item>0x1f393</item>
+            <item>0x1f356</item>
+            <item>0x2614</item>
+            <item>0x26c5</item>
+            <item>0x270f</item>
+            <item>0x1f4a9</item>
+            <item>0x1f384</item>
+            <item>0x1f377</item>
+            <item>0x1f3a4</item>
+            <item>0x1f3c0</item>
+            <item>0x1f004</item>
+            <item>0x1f4a3</item>
+            <item>0x1f4e2</item>
+            <item>0x1f30f</item>
+            <item>0x1f36b</item>
+            <item>0x1f3b2</item>
+            <item>0x1f3c2</item>
+            <item>0x1f4a1</item>
+            <item>0x1f4a4</item>
+            <item>0x1f6ab</item>
+            <item>0x1f33b</item>
+            <item>0x1f37b</item>
+            <item>0x1f3b5</item>
+            <item>0x1f3e1</item>
+            <item>0x1f4a2</item>
+            <item>0x1f4de</item>
+            <item>0x1f6bf</item>
+            <item>0x1f35a</item>
+            <item>0x1f46a</item>
+            <item>0x1f47c</item>
+            <item>0x1f48a</item>
+            <item>0x1f52b</item>
+            <item>0x1f339</item>
+            <item>0x1f436</item>
+            <item>0x1f484</item>
+            <item>0x1f46b</item>
+            <item>0x1f47d</item>
+            <item>0x1f48b</item>
+            <item>0x1f319</item>
+            <item>0x1f349</item>
+            <item>0x1f437</item>
+            <item>0x1f494</item>
+            <item>0x1f47b</item>
+            <item>0x1f47f</item>
+            <item>0x1f48d</item>
+            <item>0x1f332</item>
+            <item>0x1f434</item>
+            <item>0x1f451</item>
+            <item>0x1f525</item>
+            <item>0x2b50</item>
+            <item>0x26bd</item>
+            <item>0x1f556</item>
+            <item>0x23f0</item>
+            <item>0x1f601</item>
+            <item>0x1f680</item>
+            <item>0x23f3</item>
+        </integer-array>
+    <array name="rc_emoji_res">
+        <item>@drawable/u1f60a</item>
+        <item>@drawable/u1f628</item>
+        <item>@drawable/u1f60d</item>
+        <item>@drawable/u1f633</item>
+        <item>@drawable/u1f60e</item>
+        <item>@drawable/u1f62d</item>
+        <item>@drawable/u1f60c</item>
+        <item>@drawable/u1f635</item>
+        <item>@drawable/u1f634</item>
+        <item>@drawable/u1f622</item>
+        <item>@drawable/u1f605</item>
+        <item>@drawable/u1f621</item>
+        <item>@drawable/u1f61c</item>
+        <item>@drawable/u1f600</item>
+        <item>@drawable/u1f632</item>
+        <item>@drawable/u1f61f</item>
+        <item>@drawable/u1f624</item>
+        <item>@drawable/u1f61e</item>
+        <item>@drawable/u1f62b</item>
+        <item>@drawable/u1f623</item>
+        <item>@drawable/u1f608</item>
+        <item>@drawable/u1f609</item>
+        <item>@drawable/u1f62f</item>
+        <item>@drawable/u1f615</item>
+        <item>@drawable/u1f630</item>
+        <item>@drawable/u1f60b</item>
+        <item>@drawable/u1f61d</item>
+        <item>@drawable/u1f613</item>
+        <item>@drawable/u1f603</item>
+        <item>@drawable/u1f602</item>
+        <item>@drawable/u1f618</item>
+        <item>@drawable/u1f612</item>
+        <item>@drawable/u1f60f</item>
+        <item>@drawable/u1f636</item>
+        <item>@drawable/u1f631</item>
+        <item>@drawable/u1f616</item>
+        <item>@drawable/u1f629</item>
+        <item>@drawable/u1f614</item>
+        <item>@drawable/u1f611</item>
+        <item>@drawable/u1f61a</item>
+        <item>@drawable/u1f62a</item>
+        <item>@drawable/u1f607</item>
+        <item>@drawable/u1f64a</item>
+        <item>@drawable/u1f44a</item>
+        <item>@drawable/u1f44e</item>
+        <item>@drawable/u261d</item>
+        <item>@drawable/u270c</item>
+        <item>@drawable/u1f62c</item>
+        <item>@drawable/u1f637</item>
+        <item>@drawable/u1f648</item>
+        <item>@drawable/u1f44c</item>
+        <item>@drawable/u1f44f</item>
+        <item>@drawable/u270a</item>
+        <item>@drawable/u1f4aa</item>
+        <item>@drawable/u1f606</item>
+        <item>@drawable/u263a</item>
+        <item>@drawable/u1f649</item>
+        <item>@drawable/u1f44d</item>
+        <item>@drawable/u1f64f</item>
+        <item>@drawable/u270b</item>
+        <item>@drawable/u2600</item>
+        <item>@drawable/u2615</item>
+        <item>@drawable/u26c4</item>
+        <item>@drawable/u1f4da</item>
+        <item>@drawable/u1f381</item>
+        <item>@drawable/u1f389</item>
+        <item>@drawable/u1f366</item>
+        <item>@drawable/u2601</item>
+        <item>@drawable/u2744</item>
+        <item>@drawable/u26a1</item>
+        <item>@drawable/u1f4b0</item>
+        <item>@drawable/u1f382</item>
+        <item>@drawable/u1f393</item>
+        <item>@drawable/u1f356</item>
+        <item>@drawable/u2614</item>
+        <item>@drawable/u26c5</item>
+        <item>@drawable/u270f</item>
+        <item>@drawable/u1f4a9</item>
+        <item>@drawable/u1f384</item>
+        <item>@drawable/u1f377</item>
+        <item>@drawable/u1f3a4</item>
+        <item>@drawable/u1f3c0</item>
+        <item>@drawable/u1f004</item>
+        <item>@drawable/u1f4a3</item>
+        <item>@drawable/u1f4e2</item>
+        <item>@drawable/u1f30f</item>
+        <item>@drawable/u1f36b</item>
+        <item>@drawable/u1f3b2</item>
+        <item>@drawable/u1f3c2</item>
+        <item>@drawable/u1f4a1</item>
+        <item>@drawable/u1f4a4</item>
+        <item>@drawable/u1f6ab</item>
+        <item>@drawable/u1f33b</item>
+        <item>@drawable/u1f37b</item>
+        <item>@drawable/u1f3b5</item>
+        <item>@drawable/u1f3e1</item>
+        <item>@drawable/u1f4a2</item>
+        <item>@drawable/u1f4de</item>
+        <item>@drawable/u1f6bf</item>
+        <item>@drawable/u1f35a</item>
+        <item>@drawable/u1f46a</item>
+        <item>@drawable/u1f47c</item>
+        <item>@drawable/u1f48a</item>
+        <item>@drawable/u1f52b</item>
+        <item>@drawable/u1f339</item>
+        <item>@drawable/u1f436</item>
+        <item>@drawable/u1f484</item>
+        <item>@drawable/u1f46b</item>
+        <item>@drawable/u1f47d</item>
+        <item>@drawable/u1f48b</item>
+        <item>@drawable/u1f319</item>
+        <item>@drawable/u1f349</item>
+        <item>@drawable/u1f437</item>
+        <item>@drawable/u1f494</item>
+        <item>@drawable/u1f47b</item>
+        <item>@drawable/u1f47f</item>
+        <item>@drawable/u1f48d</item>
+        <item>@drawable/u1f332</item>
+        <item>@drawable/u1f434</item>
+        <item>@drawable/u1f451</item>
+        <item>@drawable/u1f525</item>
+        <item>@drawable/u2b50</item>
+        <item>@drawable/u26bd</item>
+        <item>@drawable/u1f556</item>
+        <item>@drawable/u23f0</item>
+        <item>@drawable/u1f601</item>
+        <item>@drawable/u1f680</item>
+        <item>@drawable/u23f3</item>
+    </array>
+    <attr format="reference|color" name="centerButtonBackground"/>
+    <attr format="reference|dimension" name="centerButtonPadding"/>
+    <attr format="reference|dimension" name="centerButtonPaddingBottom"/>
+    <attr format="reference|dimension" name="centerButtonPaddingLeft"/>
+    <attr format="reference|dimension" name="centerButtonPaddingRight"/>
+    <attr format="reference|dimension" name="centerButtonPaddingTop"/>
+    <attr format="reference|string" name="centerButtonText"/>
+    <attr format="reference|color" name="centerButtonTextColor"/>
+    <attr format="reference|dimension" name="centerButtonTextSize"/>
+    <attr format="reference|dimension" name="centerImagePadding"/>
+    <attr format="reference|dimension" name="centerImagePaddingBottom"/>
+    <attr format="reference|dimension" name="centerImagePaddingLeft"/>
+    <attr format="reference|dimension" name="centerImagePaddingRight"/>
+    <attr format="reference|dimension" name="centerImagePaddingTop"/>
+    <attr format="reference|integer" name="centerImageSource"/>
+    <attr format="reference|string" name="centerText"/>
+    <attr format="reference|color" name="centerTextColor"/>
+    <attr format="reference|dimension" name="centerTextPadding"/>
+    <attr format="reference|dimension" name="centerTextPaddingBottom"/>
+    <attr format="reference|dimension" name="centerTextPaddingLeft"/>
+    <attr format="reference|dimension" name="centerTextPaddingRight"/>
+    <attr format="reference|dimension" name="centerTextPaddingTop"/>
+    <attr format="reference|dimension" name="centerTextSize"/>
+    <attr name="centerType">
+        <enum name="text" value="0"/>
+        <enum name="image" value="1"/>
+        <enum name="button" value="2"/>
+    </attr>
+    <attr format="color" name="color"/>
+    <attr format="reference" name="icon"/>
+    <attr format="reference|color" name="leftButtonBackground"/>
+    <attr format="reference|dimension" name="leftButtonMargIn"/>
+    <attr format="reference|dimension" name="leftButtonMargInBottom"/>
+    <attr format="reference|dimension" name="leftButtonMargInLeft"/>
+    <attr format="reference|dimension" name="leftButtonMargInRight"/>
+    <attr format="reference|dimension" name="leftButtonMargInTop"/>
+    <attr format="reference|dimension" name="leftButtonPadding"/>
+    <attr format="reference|dimension" name="leftButtonPaddingBottom"/>
+    <attr format="reference|dimension" name="leftButtonPaddingLeft"/>
+    <attr format="reference|dimension" name="leftButtonPaddingRight"/>
+    <attr format="reference|dimension" name="leftButtonPaddingTop"/>
+    <attr format="reference|string" name="leftButtonText"/>
+    <attr format="reference|color" name="leftButtonTextColor"/>
+    <attr format="reference|dimension" name="leftButtonTextSize"/>
+    <attr format="reference|dimension" name="leftImagePadding"/>
+    <attr format="reference|dimension" name="leftImagePaddingBottom"/>
+    <attr format="reference|dimension" name="leftImagePaddingLeft"/>
+    <attr format="reference|dimension" name="leftImagePaddingRight"/>
+    <attr format="reference|dimension" name="leftImagePaddingTop"/>
+    <attr format="reference|integer" name="leftImageSource"/>
+    <attr format="reference|string" name="leftText"/>
+    <attr format="reference|color" name="leftTextColor"/>
+    <attr format="reference|dimension" name="leftTextPadding"/>
+    <attr format="reference|dimension" name="leftTextPaddingBottom"/>
+    <attr format="reference|dimension" name="leftTextPaddingLeft"/>
+    <attr format="reference|dimension" name="leftTextPaddingRight"/>
+    <attr format="reference|dimension" name="leftTextPaddingTop"/>
+    <attr format="reference|dimension" name="leftTextSize"/>
+    <attr name="leftType">
+        <enum name="text" value="0"/>
+        <enum name="image" value="1"/>
+        <enum name="button" value="2"/>
+    </attr>
+    <attr format="reference|color" name="rightButtonBackground"/>
+    <attr format="reference|dimension" name="rightButtonMargIn"/>
+    <attr format="reference|dimension" name="rightButtonMargInBottom"/>
+    <attr format="reference|dimension" name="rightButtonMargInLeft"/>
+    <attr format="reference|dimension" name="rightButtonMargInRight"/>
+    <attr format="reference|dimension" name="rightButtonMargInTop"/>
+    <attr format="reference|dimension" name="rightButtonPadding"/>
+    <attr format="reference|dimension" name="rightButtonPaddingBottom"/>
+    <attr format="reference|dimension" name="rightButtonPaddingLeft"/>
+    <attr format="reference|dimension" name="rightButtonPaddingRight"/>
+    <attr format="reference|dimension" name="rightButtonPaddingTop"/>
+    <attr format="reference|string" name="rightButtonText"/>
+    <attr format="reference|color" name="rightButtonTextColor"/>
+    <attr format="reference|dimension" name="rightButtonTextSize"/>
+    <attr format="reference|dimension" name="rightImagePadding"/>
+    <attr format="reference|dimension" name="rightImagePaddingBottom"/>
+    <attr format="reference|dimension" name="rightImagePaddingLeft"/>
+    <attr format="reference|dimension" name="rightImagePaddingRight"/>
+    <attr format="reference|dimension" name="rightImagePaddingTop"/>
+    <attr format="reference|integer" name="rightImageSource"/>
+    <attr format="reference|string" name="rightText"/>
+    <attr format="reference|color" name="rightTextColor"/>
+    <attr format="reference|dimension" name="rightTextPadding"/>
+    <attr format="reference|dimension" name="rightTextPaddingBottom"/>
+    <attr format="reference|dimension" name="rightTextPaddingLeft"/>
+    <attr format="reference|dimension" name="rightTextPaddingRight"/>
+    <attr format="reference|dimension" name="rightTextPaddingTop"/>
+    <attr format="reference|dimension" name="rightTextSize"/>
+    <attr name="rightType">
+        <enum name="text" value="0"/>
+        <enum name="image" value="1"/>
+        <enum name="button" value="2"/>
+    </attr>
+    <attr format="string" name="text"/>
+    <attr format="dimension" name="text_size"/>
+    <bool name="rc_is_show_warning_notification">true</bool>
+    <bool name="rc_play_audio_continuous">true</bool>
+    <bool name="rc_read_receipt">true</bool>
+    <bool name="rc_typing_status">true</bool>
+    <color name="activity_main_ChangeColorIconWithText_lymain_color">#ff45c01a</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <color name="radio_button_text_select_color">#5CACEE</color>
+    <color name="radio_button_text_unselect_color">#9E9E9E</color>
+    <color name="rc_conversation_top_bg">#f2faff</color>
+    <color name="rc_draft_color">#cb120f</color>
+    <color name="rc_input_bg">#F4F4F4</color>
+    <color name="rc_message_user_name">#838383</color>
+    <color name="rc_normal_bg">#EBEBEB</color>
+    <color name="rc_notice_normal">#F0fffbd4</color>
+    <color name="rc_notice_text">#999999</color>
+    <color name="rc_notice_warning">#F0ffd0c4</color>
+    <color name="rc_notification_bg">#D3D3D3</color>
+    <color name="rc_plugins_bg">#F8F8F8</color>
+    <color name="rc_text_color_primary">#353535</color>
+    <color name="rc_text_color_primary_inverse">@android:color/white</color>
+    <color name="rc_text_color_secondary">#999999</color>
+    <color name="rc_text_color_tertiary">#d7d7d7</color>
+    <color name="rc_text_voice">#7f7f7f</color>
+    <color name="rc_voice_color">#0195ff</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="text_color">#575757</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <declare-styleable name="AsyncImageView"><attr format="dimension" name="RCMinShortSideSize"/><attr format="dimension" name="RCCornerRadius"/><attr name="RCShape"><flag name="square" value="0"/><flag name="circle" value="1"/></attr><attr format="reference" name="RCDefDrawable"/></declare-styleable>
+    <declare-styleable name="ChangeColorIconWithText"><attr name="icon"/><attr name="text"/><attr name="color"/><attr name="text_size"/></declare-styleable>
+    <declare-styleable name="GifImageView"><attr format="boolean" name="auto_play"/></declare-styleable>
+    <declare-styleable name="InputView"><attr name="RCStyle"><enum name="SCE" value="0x123"/><enum name="CES" value="0x231"/><enum name="ECS" value="0x321"/><enum name="CSE" value="0x213"/><enum name="SC" value="0x120"/><enum name="CS" value="0x21"/><enum name="EC" value="0x320"/><enum name="CE" value="0x023"/><enum name="C" value="0x020"/></attr></declare-styleable>
+    <declare-styleable name="ProgressWheel"><attr format="boolean" name="matProg_progressIndeterminate"/><attr format="color" name="matProg_barColor"/><attr format="color" name="matProg_rimColor"/><attr format="dimension" name="matProg_rimWidth"/><attr format="float" name="matProg_spinSpeed"/><attr format="integer" name="matProg_barSpinCycleTime"/><attr format="dimension" name="matProg_circleRadius"/><attr format="boolean" name="matProg_fillRadius"/><attr format="dimension" name="matProg_barWidth"/><attr format="boolean" name="matProg_linearProgress"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="RCCircleFlowIndicator"><attr format="color" name="RCActiveColor"/><attr format="color" name="RCInactiveColor"/><attr format="dimension" name="RCRadius"/><attr format="dimension" name="RCSpacing"/><attr format="boolean" name="RCCentered"/><attr format="integer" name="RCFadeOut"/><attr name="RCInactiveType"><flag name="RCStroke" value="0"/><flag name="RCFill" value="1"/></attr><attr name="RCActiveType"><flag name="RCStroke" value="0"/><flag name="RCFill" value="1"/></attr><attr format="boolean" name="RCSnap"/></declare-styleable>
+    <declare-styleable name="RCViewFlow"><attr format="integer" name="RCSideBuffer"/></declare-styleable>
+    <declare-styleable name="Rotate3dAnimation"><attr format="enum" name="rollType"><enum name="x" value="0"/><enum name="y" value="1"/><enum name="z" value="2"/></attr><attr format="float" name="fromDeg"/><attr format="float" name="toDeg"/><attr format="fraction" name="pivotX"/><attr format="fraction" name="pivotY"/></declare-styleable>
+    <declare-styleable name="barView"><attr name="leftType"/><attr name="rightType"/><attr name="centerType"/><attr name="leftTextColor"/><attr name="leftTextSize"/><attr name="leftText"/><attr name="leftTextPadding"/><attr name="leftTextPaddingLeft"/><attr name="leftTextPaddingRight"/><attr name="leftTextPaddingTop"/><attr name="leftTextPaddingBottom"/><attr name="leftImageSource"/><attr name="leftImagePadding"/><attr name="leftImagePaddingLeft"/><attr name="leftImagePaddingRight"/><attr name="leftImagePaddingTop"/><attr name="leftImagePaddingBottom"/><attr name="leftButtonText"/><attr name="leftButtonTextColor"/><attr name="leftButtonTextSize"/><attr name="leftButtonBackground"/><attr name="leftButtonPadding"/><attr name="leftButtonPaddingLeft"/><attr name="leftButtonPaddingRight"/><attr name="leftButtonPaddingTop"/><attr name="leftButtonPaddingBottom"/><attr name="leftButtonMargIn"/><attr name="leftButtonMargInLeft"/><attr name="leftButtonMargInRight"/><attr name="leftButtonMargInTop"/><attr name="leftButtonMargInBottom"/><attr name="rightTextColor"/><attr name="rightTextSize"/><attr name="rightText"/><attr name="rightTextPadding"/><attr name="rightTextPaddingLeft"/><attr name="rightTextPaddingRight"/><attr name="rightTextPaddingTop"/><attr name="rightTextPaddingBottom"/><attr name="rightImageSource"/><attr name="rightImagePadding"/><attr name="rightImagePaddingLeft"/><attr name="rightImagePaddingRight"/><attr name="rightImagePaddingTop"/><attr name="rightImagePaddingBottom"/><attr name="rightButtonText"/><attr name="rightButtonTextColor"/><attr name="rightButtonTextSize"/><attr name="rightButtonBackground"/><attr name="rightButtonPadding"/><attr name="rightButtonPaddingLeft"/><attr name="rightButtonPaddingRight"/><attr name="rightButtonPaddingTop"/><attr name="rightButtonPaddingBottom"/><attr name="rightButtonMargIn"/><attr name="rightButtonMargInLeft"/><attr name="rightButtonMargInRight"/><attr name="rightButtonMargInTop"/><attr name="rightButtonMargInBottom"/><attr name="centerTextColor"/><attr name="centerTextSize"/><attr name="centerText"/><attr name="centerTextPadding"/><attr name="centerTextPaddingLeft"/><attr name="centerTextPaddingRight"/><attr name="centerTextPaddingTop"/><attr name="centerTextPaddingBottom"/><attr name="centerImageSource"/><attr name="centerImagePadding"/><attr name="centerImagePaddingLeft"/><attr name="centerImagePaddingRight"/><attr name="centerImagePaddingTop"/><attr name="centerImagePaddingBottom"/><attr name="centerButtonText"/><attr name="centerButtonTextColor"/><attr name="centerButtonTextSize"/><attr name="centerButtonBackground"/><attr name="centerButtonPadding"/><attr name="centerButtonPaddingLeft"/><attr name="centerButtonPaddingRight"/><attr name="centerButtonPaddingTop"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_main_ChangeColorIconWithText_layout_width">0dp</dimen>
+    <dimen name="activity_main_ChangeColorIconWithText_padding">5dp</dimen>
+    <dimen name="activity_main_ChangeColorIconWithText_text_size">12sp</dimen>
+    <dimen name="activity_main_Linerlayout_layout_height">60dp</dimen>
+    <dimen name="activity_main_ViewPager_layout_height">0dp</dimen>
+    <dimen name="activity_main_listView_dividerHeight">1dp</dimen>
+    <dimen name="activity_main_listView_layout_width">250dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="header_footer_internal_padding">20dp</dimen>
+    <dimen name="header_footer_left_right_padding">25dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">10dp</dimen>
+    <dimen name="hotscene_detail_sp">0.5dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="rc_conversation_item_data_size">14sp</dimen>
+    <dimen name="rc_conversation_item_name_size">16sp</dimen>
+    <dimen name="rc_message_send_status_image_size">17dp</dimen>
+    <dimen name="title_text_size">12sp</dimen>
+    <item name="gridview" type="id"/>
+    <item name="rc_actionbar" type="id"/>
+    <item name="rc_back" type="id"/>
+    <item name="rc_btn_cancel" type="id"/>
+    <item name="rc_btn_ok" type="id"/>
+    <item name="rc_checkbox" type="id"/>
+    <item name="rc_content" type="id"/>
+    <item name="rc_conversation_content" type="id"/>
+    <item name="rc_conversation_msg_block" type="id"/>
+    <item name="rc_conversation_status" type="id"/>
+    <item name="rc_conversation_time" type="id"/>
+    <item name="rc_conversation_title" type="id"/>
+    <item name="rc_fragment" type="id"/>
+    <item name="rc_frame" type="id"/>
+    <item name="rc_icon" type="id"/>
+    <item name="rc_img" type="id"/>
+    <item name="rc_input_extension" type="id"/>
+    <item name="rc_input_main" type="id"/>
+    <item name="rc_input_switch" type="id"/>
+    <item name="rc_item0" type="id"/>
+    <item name="rc_item1" type="id"/>
+    <item name="rc_item2" type="id"/>
+    <item name="rc_item3" type="id"/>
+    <item name="rc_item4" type="id"/>
+    <item name="rc_item5" type="id"/>
+    <item name="rc_item6" type="id"/>
+    <item name="rc_item7" type="id"/>
+    <item name="rc_item8" type="id"/>
+    <item name="rc_item9" type="id"/>
+    <item name="rc_item_conversation" type="id"/>
+    <item name="rc_layout" type="id"/>
+    <item name="rc_left" type="id"/>
+    <item name="rc_list" type="id"/>
+    <item name="rc_logo" type="id"/>
+    <item name="rc_message_send_failed" type="id"/>
+    <item name="rc_msg" type="id"/>
+    <item name="rc_new" type="id"/>
+    <item name="rc_pager" type="id"/>
+    <item name="rc_portrait" type="id"/>
+    <item name="rc_portrait_right" type="id"/>
+    <item name="rc_progress" type="id"/>
+    <item name="rc_read_receipt" type="id"/>
+    <item name="rc_right" type="id"/>
+    <item name="rc_send" type="id"/>
+    <item name="rc_sent_status" type="id"/>
+    <item name="rc_time" type="id"/>
+    <item name="rc_title" type="id"/>
+    <item name="rc_title_layout" type="id"/>
+    <item name="rc_txt" type="id"/>
+    <item name="rc_unread_message" type="id"/>
+    <item name="rc_unread_message_right" type="id"/>
+    <item name="rc_warning" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <integer name="rc_audio_encoding_bit_rate">7950</integer>
+    <integer name="rc_chatroom_first_pull_message_count">10</integer>
+    <integer name="rc_custom_service_evaluation_interval">60</integer>
+    <integer name="rc_image_quality">85</integer>
+    <integer name="rc_image_size">960</integer>
+    <string name="BMAppUpdate">应用更新</string>
+    <string name="BMBreak_Network">未联网</string>
+    <string name="BMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+    <string name="BMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="BMIgnore">忽略该版</string>
+    <string name="BMNewVersion">最新版本: </string>
+    <string name="BMNotNow">以后再说</string>
+    <string name="BMTargetSize">新版本大小:</string>
+    <string name="BMToast_IsUpdating">正在更新中....</string>
+    <string name="BMUpdateCheck">v3.1.4Beta</string>
+    <string name="BMUpdateContent">更新内容</string>
+    <string name="BMUpdateNow">立即更新</string>
+    <string name="BMUpdateSize">仅需要下载:</string>
+    <string name="BMUpdateTitle">发现新版本</string>
+    <string name="LOADING">Loading...</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_main_ChangeColorIconWithText_id_one_lyman_text">发需求</string>
+    <string name="activity_main_ChangeColorIconWithText_id_three_lyman_text">会话</string>
+    <string name="activity_main_ChangeColorIconWithText_id_two_lyman_text">找向导</string>
+    <string name="alipay">支付宝好友</string>
+    <string name="alipay_client_inavailable">目前您的支付宝版本过低或未安装，需要安装支付宝才能使用</string>
+    <string name="app_name">乐友游</string>
+    <string name="baidutieba">百度贴吧</string>
+    <string name="baidutieba_client_inavailable">目前您的百度贴吧版本过低或未安装，需要安装百度贴吧才能使用</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="bmob_common_action_cancel">取消</string>
+    <string name="bmob_common_action_continue">继续</string>
+    <string name="bmob_common_action_info_exist">正在下载中.</string>
+    <string name="bmob_common_action_pause">暂停</string>
+    <string name="bmob_common_download_failed">下载失败</string>
+    <string name="bmob_common_download_finish">下载完成，请点击安装</string>
+    <string name="bmob_common_download_notification_prefix">正在下载: </string>
+    <string name="bmob_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="bmob_common_network_break_alert">请连接网络后再尝试！</string>
+    <string name="bmob_common_patch_finish">更新完成，请点击安装</string>
+    <string name="bmob_common_pause_notification_prefix">暂停: </string>
+    <string name="bmob_common_silent_download_finish">新版本已经准备好，请点击安装</string>
+    <string name="bmob_common_start_download_notification">正在下载应用</string>
+    <string name="bmob_common_start_patch_notification">正在更新安装包</string>
+    <string name="cancel">取消</string>
+    <string name="desc">黄山是中国着名风景区之一，世界游览胜地。登黄山可从前山或后山上。慈光阁是前山票房，今天我们就从前山上。大家跟着我横穿公路走台阶道。前面就是半山寺。半山寺因为在玉屏楼和慈光阁中间而得名，半山寺为刘伯承手书，寺前可看金鸡叫天门等景点。
+
+　　现在我们进入玉屏景区。看，这座就是天都峰。它位于黄山东南部，西对莲花峰，东连钵盂峰，离玉屏峰约1公里。天都峰为黄山三大主峰之一，36大峰之一，海拔1810米。古称“群仙所都”，意为天上都会，故取名“天都峰”。此峰特色是健骨竦桀，卓立地表，险峭雄奇，气势博大，在黄山群峰中，最为雄伟壮丽。与莲花峰、光明顶并称为黄山三大主峰。天都古时无路，难登峰顶。天都峰另有仙桃石、天梯、鱼背等奇景，以及探海松、舞松等奇松。峰壁巨岩上，有“登峰造极”等石刻。</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="douban">豆瓣</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="evernote">印象笔记</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <string name="finish">完成</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string formatted="false" name="instapager_login_html">
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+&lt;meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\">
+&lt;meta content=\"yes\" name=\"apple-mobile-web-app-capable\">
+&lt;title>%s&lt;/title>
+&lt;style type=\"text/css\">
+body{margin:0;padding:0}
+.inputstyle {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    width:100%%;
+    height:44px;
+    color:#000;
+    background:0;
+    border:0;
+    font-size:16px;
+    outline: none;
+    -webkit-appearance:none
+}
+
+.btn {
+    width:90%%;
+    height:44px;
+    line-height:44px;
+    background:#A0C035;
+    border:0;
+    border-radius:4px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-top:15px;
+    display:block
+}
+.btn:disabled {
+    background: #dddddd;
+}
+.error {
+    color:red;
+}
+&lt;/style>
+&lt;/head>
+
+&lt;body>
+&lt;script type=\"text/javascript\">
+function login(form){
+    var u=form[\"u\"].value,p=form[\"p\"].value;
+    if(!u || !p)
+        return false;
+    form[\"s\"].disabled = true;
+    return true;
+}
+&lt;/script>
+&lt;form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\">
+%s
+&lt;div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\">
+ &lt;input type=\"hidden\" name=\"ID_SIGN\" value=\"OWELJSFPWECSFEW\"/>
+ &lt;input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" value=\"%s\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/>
+ &lt;input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/>
+&lt;/div>
+&lt;p>&lt;input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\"  %s  \" class=\"btn\"/>&lt;/p>
+&lt;/form>
+&lt;/body>
+&lt;/html>
+</string>
+    <string name="instapaper">Instapaper</string>
+    <string name="instapaper_email">邮箱</string>
+    <string name="instapaper_login">登录</string>
+    <string name="instapaper_logining">登录中…</string>
+    <string name="instapaper_pwd">密码</string>
+    <string name="kaixin">开心网</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="laiwang">来往</string>
+    <string name="laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
+    <string name="laiwangmoments">来往动态</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="linkedin">领英</string>
+    <string name="list_friends">%s的朋友</string>
+    <string name="login_can_not_login">忘记密码？</string>
+    <string name="login_new_user">新用户</string>
+    <string name="login_view_bt_text">登录</string>
+    <string name="login_view_user_name">乐悠游帐号</string>
+    <string name="login_view_user_passsword">密码</string>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="multi_share">图文分享</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="pocket">Pocket</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">Pull to load more…</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">Release to load more…</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <string name="rc_called_accept">对方接受了通话请求</string>
+    <string name="rc_called_is_calling">对方正在通话中</string>
+    <string name="rc_called_not_accept">对方未接听</string>
+    <string name="rc_called_on_grhook">对方已挂机</string>
+    <string name="rc_conversation_List_operation_failure">操作失败</string>
+    <string name="rc_conversation_list_app_public_service">应用公众服务</string>
+    <string name="rc_conversation_list_default_discussion_name">"讨论组"</string>
+    <string name="rc_conversation_list_dialog_cancel_top">取消置顶</string>
+    <string name="rc_conversation_list_dialog_remove">从会话列表中移除</string>
+    <string name="rc_conversation_list_dialog_set_top">置顶该会话</string>
+    <string name="rc_conversation_list_empty_prompt">"暂无聊天信息"</string>
+    <string name="rc_conversation_list_my_chatroom">我的聊天室</string>
+    <string name="rc_conversation_list_my_customer_service">客服列表</string>
+    <string name="rc_conversation_list_my_discussion">我的讨论组</string>
+    <string name="rc_conversation_list_my_group">我的群组</string>
+    <string name="rc_conversation_list_my_private_conversation">我的私人会话</string>
+    <string name="rc_conversation_list_not_connected">"尚未连接!"</string>
+    <string name="rc_conversation_list_popup_cancel_top">取消置顶</string>
+    <string name="rc_conversation_list_popup_set_top">已置顶</string>
+    <string name="rc_conversation_list_public_service">公众服务</string>
+    <string name="rc_conversation_list_system_conversation">系统消息</string>
+    <string name="rc_cs_cancel">取消</string>
+    <string name="rc_cs_evaluate_human">请对本次服务做出评价</string>
+    <string name="rc_cs_evaluate_robot">机器人是否解决了您的问题</string>
+    <string name="rc_cs_submit">提交</string>
+    <string name="rc_dialog_cancel">取消</string>
+    <string name="rc_dialog_item_message_copy">复制消息</string>
+    <string name="rc_dialog_item_message_delete">删除消息</string>
+    <string name="rc_dialog_ok">确定</string>
+    <string name="rc_discussion_nt_msg_for_add">"%1$s 邀请了%2$s位成员加入了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_added">"%1$s 邀请 %2$s 加入了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_exit">"%1$s 退出了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_is_open_invite_close">"%1$s 关闭了成员邀请"</string>
+    <string name="rc_discussion_nt_msg_for_is_open_invite_open">"%1$s 开放了成员邀请"</string>
+    <string name="rc_discussion_nt_msg_for_removed">"你被 %1$s 移出了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_rename">"%1$s 修改讨论组名称为 %2$s"</string>
+    <string name="rc_discussion_nt_msg_for_who_removed">"%1$s 被 %2$s 移出了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_you">"你"</string>
+    <string name="rc_exit_calling">是否退出通话界面？</string>
+    <string name="rc_file_not_exist">文件不存在</string>
+    <string name="rc_forbidden_in_chatroom">你已被禁言，不能发送消息</string>
+    <string name="rc_info_forbidden_to_talk">您当前在群组中被禁言</string>
+    <string name="rc_info_not_in_chatroom">你不在该聊天室</string>
+    <string name="rc_info_not_in_discussion">你不在该讨论组</string>
+    <string name="rc_info_not_in_group">你不在该群</string>
+    <string name="rc_init_failed">连接客服失败</string>
+    <string name="rc_input_send">发送</string>
+    <string name="rc_input_voice">按住 说话</string>
+    <string name="rc_kicked_from_chatroom">你已被踢出聊天室</string>
+    <string name="rc_message_content_draft">[草稿]</string>
+    <string name="rc_message_content_image">[图片]</string>
+    <string name="rc_message_content_location">[位置]</string>
+    <string name="rc_message_content_rich_text">[图文]</string>
+    <string name="rc_message_content_voice">[语音]</string>
+    <string name="rc_message_unknown">当前版本暂不支持查看此消息</string>
+    <string name="rc_message_unread_count">"···"</string>
+    <string name="rc_name">融云</string>
+    <string name="rc_network_error">网络连接错误</string>
+    <string name="rc_network_exception">网络异常请稍后再试</string>
+    <string name="rc_network_is_busy">网络繁忙</string>
+    <string name="rc_notice_connecting">正在连接服务器</string>
+    <string name="rc_notice_create_discussion">正在创建讨论组</string>
+    <string name="rc_notice_create_discussion_fail">创建讨论组失败</string>
+    <string name="rc_notice_data_is_loading">数据加载中</string>
+    <string name="rc_notice_disconnect">无法连接到服务器</string>
+    <string name="rc_notice_download_fail">下载失败!</string>
+    <string name="rc_notice_enter_chatroom">进入聊天室</string>
+    <string name="rc_notice_input_conversation_error">会话尚未创建</string>
+    <string name="rc_notice_load_data_fail">获取数据失败</string>
+    <string name="rc_notice_network_unavailable">当前网络不可用</string>
+    <string name="rc_notice_select_one_picture_at_last">请至少选择一张图片</string>
+    <string name="rc_notice_tick">该帐号已经在其他设备登录</string>
+    <string name="rc_notification_new_msg">%1$s发来了%2$d条消息</string>
+    <string name="rc_notification_new_plural_msg">%1$d个联系人发来了%2$d条消息</string>
+    <string name="rc_notification_ticker_text">您有了一条新消息</string>
+    <string name="rc_plugins_camera">相机</string>
+    <string name="rc_plugins_image">图片</string>
+    <string name="rc_plugins_location">位置</string>
+    <string name="rc_plugins_voip">语音通话</string>
+    <string name="rc_pub_service_info_account">公众号：%1$s</string>
+    <string name="rc_pub_service_info_description">功能介绍</string>
+    <string name="rc_pub_service_info_enter">进入公众号</string>
+    <string name="rc_pub_service_info_follow">关注</string>
+    <string name="rc_pub_service_info_unfollow">取消关注</string>
+    <string name="rc_quit_custom_service">客服已结束</string>
+    <string name="rc_read_all">阅读全文</string>
+    <string name="rc_rejected_by_blacklist_prompt">您的消息已经发出，但被对方拒收</string>
+    <string name="rc_send_format">发送(%1$s)</string>
+    <string name="rc_setting_clear_msg_fail">清空聊天失败</string>
+    <string name="rc_setting_clear_msg_name">清空聊天信息</string>
+    <string name="rc_setting_clear_msg_prompt">你确定要清空聊天消息吗?</string>
+    <string name="rc_setting_clear_msg_success">清空聊天成功</string>
+    <string name="rc_setting_conversation_notify">新消息通知</string>
+    <string name="rc_setting_conversation_notify_fail">设置新消息通知失败</string>
+    <string name="rc_setting_get_conversation_notify_fail">获取新消息通知失败</string>
+    <string name="rc_setting_name">设置</string>
+    <string name="rc_setting_set_top">置顶</string>
+    <string name="rc_setting_set_top_fail">设置置顶失败</string>
+    <string name="rc_voice_cancel">松开手指，取消发送</string>
+    <string name="rc_voice_dialog_cancel_send">松开手指，取消发送</string>
+    <string name="rc_voice_dialog_swipe">手指上滑，取消发送</string>
+    <string name="rc_voice_dialog_time_short">说话时间太短</string>
+    <string name="rc_voice_failure">录音失败！</string>
+    <string name="rc_voice_rec">手指上滑，取消发送</string>
+    <string name="rc_voice_short">录音时间太短</string>
+    <string name="rc_voip_cpu_error">很抱歉，该功能暂时不支持您的机型</string>
+    <string name="rc_waiting">等待中</string>
+    <string name="rc_yes">是</string>
+    <string name="rc_yesterday_format">昨天 %1$s</string>
+    <string name="refreshing">刷新中…</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="renren">人人网</string>
+    <string name="select_a_friend">请选择一个朋友</string>
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="shake2share">摇晃手机！</string>
+    <string name="share">分享</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_to">分享到</string>
+    <string name="share_to_baidutieba">分享到百度贴吧</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="share_to_qzone_default">来自%s的分享</string>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="ssdk_recomm_app_friends_title">您有&lt;font color="#ed4456">%1$s&lt;/font>位好友正在使用这个应用</string>
+    <string name="ssdk_recomm_click_for_more">点击加载更多</string>
+    <string name="ssdk_recomm_close">关闭</string>
+    <string name="ssdk_recomm_download">立即下载</string>
+    <string name="ssdk_recomm_friends_sharing">他们正在分享</string>
+    <string name="ssdk_recomm_share_before_date">%s天前</string>
+    <string name="ssdk_recomm_share_before_hour">%s小时前</string>
+    <string name="ssdk_recomm_share_before_minute">%s分钟前 </string>
+    <string name="ssdk_recomm_share_before_second">%s秒前 </string>
+    <string name="ssdk_recomm_share_completed">分享成功</string>
+    <string name="ssdk_recomm_share_failed">分享失败</string>
+    <string name="ssdk_recomm_share_msg_link">网页链接 </string>
+    <string name="ssdk_recomm_share_share_to_another_plats">分享到更多平台</string>
+    <string name="ssdk_recomm_share_to">分享至 %s </string>
+    <string name="ssdk_recomm_today_news">今日新闻</string>
+    <string name="ssdk_recomm_view_count">%s人看过</string>
+    <string name="ssdk_recomm_webpage_def_title">网页</string>
+    <string name="ssdk_socialization_auth_failed">授权失败</string>
+    <string name="ssdk_socialization_bind_account">绑定帐号</string>
+    <string name="ssdk_socialization_change_account">更换帐号</string>
+    <string name="ssdk_socialization_click_to_unfold">展开隐藏评论</string>
+    <string name="ssdk_socialization_comment_error">内容包含敏感字符</string>
+    <string name="ssdk_socialization_comment_like_author_title">来源：</string>
+    <string name="ssdk_socialization_comment_like_comment_list_title">评论列表</string>
+    <string name="ssdk_socialization_comment_list_is_empty">还没有评论哦\n单击页面抢沙发\nempty…</string>
+    <string name="ssdk_socialization_comment_rejected">该评论已被屏蔽</string>
+    <string name="ssdk_socialization_comment_repeat">重复字符过多</string>
+    <string name="ssdk_socialization_comment_too_long">字符长度过长</string>
+    <string name="ssdk_socialization_comment_too_short">字符长度不足</string>
+    <string name="ssdk_socialization_copy">复制</string>
+    <string name="ssdk_socialization_failed_to_reply">评论失败</string>
+    <string name="ssdk_socialization_hot_list">热门评论</string>
+    <string name="ssdk_socialization_last_refresh_time">上次刷新时间：%s</string>
+    <string name="ssdk_socialization_let_me_say">我来说两句</string>
+    <string name="ssdk_socialization_like_failed">称赞失败</string>
+    <string name="ssdk_socialization_loading_next">正在加载下一页…</string>
+    <string name="ssdk_socialization_new_list">最新评论</string>
+    <string name="ssdk_socialization_nickname">匿名用户</string>
+    <string name="ssdk_socialization_not_yet_authorized">尚未授权</string>
+    <string name="ssdk_socialization_progressdialog_auth">授权</string>
+    <string name="ssdk_socialization_progressdialog_do_authing">分享需要先授权......</string>
+    <string name="ssdk_socialization_progressdialog_msg">请等待......</string>
+    <string name="ssdk_socialization_pull_to_refresh">下拉刷新</string>
+    <string name="ssdk_socialization_refreshing">刷新中…</string>
+    <string name="ssdk_socialization_release_to_refresh">松开刷新</string>
+    <string name="ssdk_socialization_replay_too_frequently">回复过于频繁，请稍后再回复</string>
+    <string name="ssdk_socialization_reply">回复</string>
+    <string name="ssdk_socialization_reply_page_title">评论</string>
+    <string name="ssdk_socialization_reply_succeeded">评论已发送</string>
+    <string name="ssdk_socialization_reply_to">回复 %s</string>
+    <string name="ssdk_socialization_replying">评论发送中…</string>
+    <string name="ssdk_socialization_right_now">刚刚</string>
+    <string name="ssdk_socialization_select_account">选择发表评论帐号：</string>
+    <string name="ssdk_socialization_select_another">添加更多帐号…</string>
+    <string name="ssdk_socialization_selsect_account">请选择授权方式</string>
+    <string name="ssdk_socialization_share">分享</string>
+    <string name="ssdk_socialization_spam_reply">评论内容不合法，请重新填写</string>
+    <string name="ssdk_socialization_text_copied">文本已经复制</string>
+    <string name="ssdk_socialization_xx_hour_before">%s小时前</string>
+    <string name="ssdk_socialization_xx_min_before">%s分钟前</string>
+    <string name="ssdk_socialization_you_have_liked_the_topic">已经赞了此话题</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="use_login_button">请改用“登录”按钮</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <style name="ActionBarCenterTitle" parent="@android:style/TextAppearance.Holo.Large">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="RCTheme" parent="@android:style/Theme.Light">
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@color/rc_text_color_primary</item>
+        <item name="android:textColorSecondary">@color/rc_text_color_secondary</item>
+        <item name="android:textColorTertiary">@color/rc_text_color_tertiary</item>
+        <item name="android:textColorPrimaryInverse">@color/rc_text_color_primary_inverse</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="RCTheme.Message.RichContent.TextView" parent="RCTheme.TextView">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/rc_text_color_secondary</item>
+    </style>
+    <style name="RCTheme.Message.TextView" parent="RCTheme.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/rc_text_color_primary</item>
+    </style>
+    <style name="RCTheme.Message.Username.TextView" parent="RCTheme.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/rc_message_user_name</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+    <style name="RCTheme.Notification" parent="RCTheme.TextView">
+        <item name="android:background">@color/rc_notification_bg</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:textColor">@color/rc_text_color_primary_inverse</item>
+    </style>
+    <style name="RCTheme.TextView" parent="android:Widget.TextView">
+
+    </style>
+    <style name="RCTheme.TextView.Large" parent="RCTheme.TextView">
+
+    </style>
+    <style name="RCTheme.TextView.Large.Inverse" parent="RCTheme.TextView.Large">
+        <item name="android:textColor">@color/rc_text_color_primary_inverse</item>
+    </style>
+    <style name="RCTheme.TextView.Medium" parent="RCTheme.TextView">
+
+    </style>
+    <style name="RCTheme.TextView.New" parent="RCTheme.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/rc_text_color_primary_inverse</item>
+        <item name="android:background">@drawable/rc_unread_count_bg</item>
+    </style>
+    <style name="RCTheme.TextView.Small" parent="RCTheme.TextView">
+
+    </style>
+    <style name="RcDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="custom_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/rc_photo_checkbox</item>
+    </style>
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+    <style name="horizontal_light_thin_divider">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+    <style name="mypopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/pop_show</item>
+        <item name="android:windowExitAnimation">@anim/pop_hide</item>
+    </style>
+    <style name="preview_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/rc_preview_checkbox</item>
+    </style>
+    <style name="vertical_light_thin_divider">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+</resources>

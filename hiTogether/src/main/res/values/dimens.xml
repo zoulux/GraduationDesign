@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="title_text_size">12sp</dimen>
+    <!-- activity_main -->
+    
+    <dimen name="activity_main_ViewPager_layout_height">0dp</dimen>
+    <dimen name="activity_main_Linerlayout_layout_height">60dp</dimen>
+    <dimen name="activity_main_ChangeColorIconWithText_layout_width">0dp</dimen>
+    <dimen name="activity_main_ChangeColorIconWithText_padding">5dp</dimen>
+    <dimen name="activity_main_ChangeColorIconWithText_text_size">12sp</dimen>
+     <dimen name="activity_main_listView_layout_width">250dp</dimen>
+     <dimen name="activity_main_listView_dividerHeight">1dp</dimen>
+       <dimen name="hotscene_detail_sp">0.5dp</dimen>
+
+</resources>

@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.lyy.hitogether"
+        minSdkVersion 14
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':base_library_pullToRefresh_chenyoca')
+    compile project(':IMKit')
+    compile project(':socialization')
+    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/BmobIM_V1.1.9beta_20150820.jar')
+    compile files('libs/BmobSDK_V3.4.4_0930.jar')
+    compile files('libs/greendao-1.3.7.jar')
+    compile files('libs/MobLogCollector.jar')
+    compile files('libs/MobTools.jar')
+    compile files('libs/okhttp-2.5.0.jar')
+    compile files('libs/okio-1.6.0.jar')
+    compile files('libs/ShareSDK-Core-2.6.3.jar')
+    compile files('libs/ShareSDK-QQ-2.6.3.jar')
+    compile files('libs/ShareSDK-QZone-2.6.3.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.6.3.jar')
+    compile files('libs/ShareSDK-Wechat-2.6.3.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.6.3.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.6.3.jar')
+    compile files('libs/universal-image-loader-1.9.4-with-sources.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+}

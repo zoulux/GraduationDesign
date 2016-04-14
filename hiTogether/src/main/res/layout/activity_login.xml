@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/my_login_view" />
+
+    <com.lyy.hitogether.view.CircleImageView
+        android:id="@+id/login_user_avarter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/default_avarter"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/id_forgotPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:text="@string/login_can_not_login"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/id_newuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="15dp"
+        android:paddingRight="10dp"
+        android:text="@string/login_new_user"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15sp" />
+
+</RelativeLayout>

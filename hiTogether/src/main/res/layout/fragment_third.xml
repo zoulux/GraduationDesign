@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/first_fragment_top_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/id_search"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_menu_search_holo_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left" >
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="搜索" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/u13" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" >
+
+         <com.handmark.pulltorefresh.library.PullToRefreshGridView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/id_third_fragment_grideview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:numColumns="2"
+            android:scrollbars="none"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrHeaderBackground="@android:color/background_light"
+            ptr:ptrHeaderSubTextColor="@android:color/holo_blue_dark"
+            ptr:ptrHeaderTextColor="@android:color/holo_blue_dark"
+            ptr:ptrListViewExtrasEnabled="false"
+            ptr:ptrDrawable="@drawable/arrow"
+            ptr:ptrMode="pullFromStart"
+            ptr:ptrRefreshableViewBackground="@android:color/background_light"
+            ptr:ptrScrollingWhileRefreshingEnabled="true"
+            ptr:ptrShowIndicator="false" />
+    </LinearLayout>
+
+</LinearLayout>

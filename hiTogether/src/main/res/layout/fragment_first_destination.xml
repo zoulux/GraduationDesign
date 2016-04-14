@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/first_fragment_top_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/id_search"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_menu_search_holo_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left" >
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="搜索" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+
+        <com.lyy.hitogether.view.MyViewPager
+            android:id="@+id/id_viewpager_fragment_first_dec"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <android.support.v4.view.PagerTitleStrip
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.lyy.hitogether.view.MyViewPager>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+
+       
+        
+        <com.handmark.pulltorefresh.library.PullToRefreshGridView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/id_gridview_des"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:horizontalSpacing="3dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrDrawable="@drawable/arrow"
+            ptr:ptrHeaderBackground="@android:color/background_light"
+            ptr:ptrHeaderSubTextColor="@android:color/holo_blue_dark"
+            ptr:ptrHeaderTextColor="@android:color/holo_blue_dark"
+            ptr:ptrListViewExtrasEnabled="false"
+            ptr:ptrMode="pullFromStart"
+            ptr:ptrRefreshableViewBackground="@android:color/background_light"
+            ptr:ptrScrollingWhileRefreshingEnabled="true"
+            ptr:ptrShowIndicator="false" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:lyman="http://schemas.android.com/apk/res/com.lyy.hitogether"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.lyy.hitogether.view.CustomTitleBarView
+        android:id="@+id/id_my_service_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_blue"
+        lyman:centerText="行程设置"
+        lyman:centerTextColor="@android:color/white"
+        lyman:centerTextSize="20sp"
+        lyman:centerType="text"
+        lyman:leftImagePadding="2dp"
+        lyman:leftImageSource="@drawable/back_indicator"
+        lyman:leftType="image"
+        lyman:rightType="text"
+        lyman:rightText = "提交"
+        lyman:rightTextColor="@android:color/white"
+        lyman:rightTextSize = "16sp"
+        lyman:rightTextPaddingRight = "10sp"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/id_activity_my_service_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/id_my" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

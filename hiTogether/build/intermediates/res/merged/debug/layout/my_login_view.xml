@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lyy.hitogether.view.MyLoginView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_my_login_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <com.lyy.hitogether.activity.ClearActivity
+        android:id="@+id/id_userName"
+        style="?android:attr/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/icon_user"
+        android:drawableRight="@drawable/delete_selector"
+        android:hint="输入用户名"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:singleLine="true" >
+    </com.lyy.hitogether.activity.ClearActivity>
+
+    <com.lyy.hitogether.activity.ClearActivity
+        android:id="@+id/id_userPwd"
+        style="?android:attr/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/account_icon"
+        android:drawableRight="@drawable/delete_selector"
+        android:hint="输入密码"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:password="true"
+        android:singleLine="true" >
+    </com.lyy.hitogether.activity.ClearActivity>
+
+    <Button
+        android:id="@+id/id_loginBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_login_shape"
+        android:text="@string/login_view_bt_text"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:alpha="0.4"
+        android:background="@android:color/darker_gray" />
+
+</com.lyy.hitogether.view.MyLoginView>

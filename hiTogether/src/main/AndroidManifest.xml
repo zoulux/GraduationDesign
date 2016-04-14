@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lyy.hitogether"
+    android:versionCode="1"
+    android:versionName="1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <permission
+        android:name="cn.bmob.permission.push"
+        android:protectionLevel="normal" >
+    </permission>
+
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- 获取联系人信息，demo中演示发送通讯录消息 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="cn.bmob.permission.push" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 获取机型信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+    <!-- 查看 Wi-Fi 状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 查看网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 控制振动器 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 防止设备休眠 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="com.lyy.hitogether.global.App"
+        android:allowBackup="true"
+        android:allowClearUserData="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lyy.hitogether.activity.Initialize"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.lyy.hitogether.activity.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.lyy.hitogether.activity.LoginActivity" >
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.test.TestActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.ShareMyTravalActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.MyAlbumActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.ShowSceneDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.MyServiceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.RegisterActivitySetPwd"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.ShowGuideDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- begin imlib request -->
+
+
+        <!-- begin imlib request -->
+
+        <activity
+            android:name="io.rong.voipkit.activity.CallSideActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.lyy.hitogether"
+                    android:pathPrefix="/VoIPCall"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.rong.voipkit.activity.CalledSideActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.lyy.hitogether"
+                    android:pathPrefix="/VoIPAccept"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="io.rong.push.PushService"
+            android:process="io.rong.push" > <!-- Waring: The name of the push process can't be changed!!! -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="io.rong.push" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="io.rong.push.CommandService"
+            android:process="io.rong.push" > <!-- Waring: The name of the push process can't be changed!!! -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="io.rong.command" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="io.rong.push.PushReceiver"
+            android:process="io.rong.push" > <!-- Waring: The name of the push process can't be changed!!! -->
+            <intent-filter>
+                <action android:name="io.rong.imlib.action.push.heartbeat" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="io.rong.imkit.tools.SelectPictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.tools.PreviewPictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.tools.RongWebviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="io.rong.imlib.ipc.RongService"
+            android:process=":ipc" >
+        </service>
+        <service android:name="io.rong.imlib.ReConnectService" />
+
+        <receiver android:name="io.rong.imlib.ConnectChangeReceiver" />
+        <receiver android:name="io.rong.imlib.ipc.PushMessageReceiver" >
+            <intent-filter>
+                <action android:name="io.rong.push.message" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.rong.imlib.HeartbeatReceiver"
+            android:process=":ipc" />
+
+        <meta-data
+            android:name="RONG_CLOUD_APP_KEY"
+            android:value="vnroth0kr9l7o" />
+
+        <!-- end -->
+
+
+        <!-- bmob start -->
+
+
+        <!-- IM聊天所需的Push start -->
+        <service
+            android:name="cn.bmob.push.lib.service.PushService"
+            android:exported="true"
+            android:label="PushService"
+            android:permission="cn.bmob.permission.push"
+            android:process="cn.bmob.push" >
+            <intent-filter>
+                <action android:name="cn.bmob.push.lib.service.PushService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="cn.bmob.push.PushReceiver" >
+            <intent-filter android:priority="2147483647" > <!-- 优先级加最高 -->
+                <!-- 系统启动完成后会调用 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- 解锁完成后会调用 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <!-- 监听网络连通性 -->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!-- 聊天消息接收器 -->
+        <receiver android:name=".MyMessageReceiver" >
+            <intent-filter>
+                <action android:name="cn.bmob.push.action.MESSAGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- IM聊天所需的Push end -->
+
+
+        <!-- 个性功能中的启动定时检测服务，可选功能 -->
+        <service android:name="cn.bmob.im.poll.BmobPollService" >
+            <intent-filter>
+                <action android:name="cn.bmob.im.service.BmobPollService" />
+            </intent-filter>
+        </service>
+        <!-- bmob end -->
+
+        <activity
+            android:name="com.lyy.hitogether.activity.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.lyy.hitogether"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyy.hitogether.activity.SubConversationListActivtiy"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.lyy.hitogether"
+                    android:pathPrefix="/subconversationlist"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.GroupActivity" >
+        </activity>
+        <activity android:name=".activity.RegisterActivityGetNumber" >
+        </activity>
+        <activity android:name=".activity.RegisterActivityVerifyCode" >
+        </activity>
+
+        <!-- 自动更新组件渠道标签 -->
+        <meta-data
+            android:name="BMOB_CHANNEL"
+            android:value="androidHitogether" />
+
+        <activity
+            android:name="cn.bmob.v3.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <!-- mob begin -->
+        <!-- QQ -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 调用新浪原生SDK，需要注册的回调activity -->
+        <activity
+            android:name="cn.sharesdk.sina.weibo.SinaActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\build\intermediates\exploded-aar\HiTogether\socialization\unspecified\jars\libs\ShareSDK-Socialization-1.0.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3a2ba0d543020e2ad4fccdd532169a1b950acbd1">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\ShareSDK-Socialization-1.0.7_eddba2be21964b2e802918a41920187c428f0b2e.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\okio-1.6.0_69bf5f020a368e0b80d040ed660dac89f63b4eff.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\build\intermediates\exploded-aar\HiTogether\socialization\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="acfb336d560848d6ca52dc6822ed071d291e94f8">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\HiTogether-socialization-unspecified_f38bb53cbecaf051727e7cb982436dc8716c595d.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\okhttp-2.5.0_3c12ff794683baca00d99fa504c8e510f6bfbd9a.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\BmobSDK_V3.4.4_0930.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="504064278d5cd28bb2c47245dd3af8176d4ce7eb">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\BmobSDK_V3.4.4_0930_182cbd02219d99c18a26ec4fb75e90b393e8587a.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_666ccef34c2add2166d5e587594bf9d92de440a8.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\ShareSDK-Wechat-Moments-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2f743f1144aac80632be6d2ab76bff091a447b75">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.6.3_aea7c6234ccfcf1ffe442213c3eaf8820e00819d.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\MobLogCollector.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0488dc80a5addc72b2fcb515f792a130c164ab5f">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\MobLogCollector_d8b57a0a8df3efb21c7677094f80e5ab6b3fc0d4.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\ShareSDK-Wechat-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c392d274c49d5b505a94edcd760c7e0e1536b034">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.6.3_e7255de599432e997bad453cf77ba36c574d6448.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\build\intermediates\exploded-aar\HiTogether\IMKit\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e13a1420ca987b9664e3bf673e4a9d97c8073e96">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\HiTogether-IMKit-unspecified_f77ac47c5dcf2f1ae343d606d3a3f23326bcf4b4.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\ShareSDK-SinaWeibo-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a080389406bbb3b21310f84df77d7391f355addc">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.6.3_cd31b78a1f3009fb0297af00b3372718bf278a56.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\xUtils-2.6.14_9f9a2379d7e99c9513498907a6d31cbc8d80bcbc.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\ShareSDK-Wechat-Core-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="33861299042fa89a53c56f3a15c37ba865a7d2e9">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.6.3_651c87c889b150807cafcc9636732d616a9f3824.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\universal-image-loader-1.9.4-with-sources.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40595dbd3e3f1b87b27e914340d0e7dfd2d5b3d3">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-with-sources_4ef9b1921e70c4a9bcedf015aa186cbd8a2d936c.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\ShareSDK-QQ-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="496e163b2b242a83885f065f193810611ada229a">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.6.3_1800a22007e24b5cbffc16e7263ea181ae245153.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\build\intermediates\exploded-aar\HiTogether\IMKit\unspecified\jars\libs\Rong_IMKit_v2_4_11.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="369a0ed3ce326a9de5b2f4577120ab4010b3ad02">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\Rong_IMKit_v2_4_11_b14d69f4616b01752543d4cbfa33f9f8ab5edd59.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\BmobIM_V1.1.9beta_20150820.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="711e2a35a8b6bbd8599cd12dcca14d55225617bd">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\BmobIM_V1.1.9beta_20150820_3bb3e8b9b16c9b9e6761060f60f7763e972ab545.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\ShareSDK-Core-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d072ff710fbddf800658d07d735ca3c5464ea04f">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.6.3_8273efa441cb41a965348109a6c570675bfe4b11.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_783812db8ad3663e866f5f8f6b44d88a1658d1c8.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\build\intermediates\exploded-aar\HiTogether\base_library_pullToRefresh_chenyoca\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa5ea7ef44369c0e567108544e0fff5d5647e746">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\HiTogether-base_library_pullToRefresh_chenyoca-unspecified_1260fa812ba2346a9939d3438c112d93b29e1055.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\greendao-1.3.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dda08161d004c4df96938da6909f1c2b96cd33c8">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\greendao-1.3.7_27951df954b25bf22584f8d0bbe67079f6383ef2.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\MobTools.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="23e791d96579e8c56fd11f1912130ff93c2d6289">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\MobTools_2dea421783cf0c7012410d401caf09e97fd1c965.jar" />
+    </item>
+    <item
+        jar="D:\AS\New\HiTogether\hiTogether\libs\ShareSDK-QZone-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="32748d59aaaf19ba26918dfecb9e2c35c80955fb">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.6.3_08fdc464c14d6d298c9a5b342c4de52fb5cb5843.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_30988f1fe36b09fe750ef342667175c0af8e1dc8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\AS\New\HiTogether\hiTogether\build\intermediates\pre-dexed\debug\gson-2.2.4_9ee75905f45518977f4317b9ea26e004616fc5d6.jar" />
+    </item>
+
+</items>

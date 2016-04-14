@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_start_conversation.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_menu_start_conversation.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_friendslist.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_menu_friendslist.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\search_clear_pressed.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\search_clear_pressed.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_allfriends.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_menu_allfriends.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_emoticons.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_menu_emoticons.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\account_icon.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\account_icon.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back_indicator.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\back_indicator.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_share_holo_light.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\search_clear_normal.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\search_clear_normal.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_share_holo_dark.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\edit_indicator.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\edit_indicator.png"
+    }
+]

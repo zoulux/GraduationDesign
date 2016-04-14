@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyman="http://schemas.android.com/apk/res/com.lyy.hitogether"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_title_bar" />
+
+    <com.lyy.hitogether.view.CustomTitleBarView
+        android:id="@+id/id_main_CustomTitleBarView_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_blue"
+        android:visibility="gone"
+        lyman:centerType="text"
+        lyman:centerText="发需求"
+        lyman:centerTextSize="20sp"
+        lyman:centerTextColor="@android:color/white"
+        lyman:leftType="image"
+        lyman:leftImageSource="@drawable/switch_draw_menu"
+        lyman:leftImagePadding="2dp"
+         />
+
+    <com.lyy.hitogether.view.CustomTitleBarView
+        android:id="@+id/id_main_CustomTitleBarView_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_blue"
+        android:visibility="gone"
+        lyman:centerType="text"
+        lyman:centerText="找向导"
+        lyman:centerTextSize="20sp"
+        lyman:centerTextColor="@android:color/white"
+        lyman:leftType="image"
+        lyman:leftImageSource="@drawable/switch_draw_menu"
+        lyman:leftImagePadding="2dp"/>
+
+    <com.lyy.hitogether.view.CustomTitleBarView
+        android:id="@+id/id_main_CustomTitleBarView_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_blue"
+        android:visibility="gone"
+        lyman:centerText="会话"
+        lyman:centerTextSize="20sp"
+        lyman:centerTextColor="@android:color/white"
+        lyman:centerType="text"
+        lyman:rightText="添加"
+        lyman:rightTextSize="18sp"
+        lyman:rightTextPaddingRight="10dp"
+        lyman:rightTextColor="@android:color/white"
+        lyman:rightType="text"
+        lyman:leftType="image"
+        lyman:leftImageSource="@drawable/switch_draw_menu"
+        lyman:leftImagePadding="2dp"
+         />
+    
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- The main content view -->
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <com.lyy.hitogether.view.MyViewPager
+                    android:id="@+id/id_viewpager_main"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/activity_main_ViewPager_layout_height"
+                    android:layout_weight="1" >
+                </com.lyy.hitogether.view.MyViewPager>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_main_Linerlayout_layout_height"
+                    android:background="@drawable/tb_bg"
+                    android:orientation="horizontal" >
+
+                    <com.lyy.hitogether.view.ChangeColorIconWithText
+                        android:id="@+id/id_one"
+                        android:layout_width="@dimen/activity_main_ChangeColorIconWithText_layout_width"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="@dimen/activity_main_ChangeColorIconWithText_padding"
+                        lyman:icon="@drawable/ic_menu_allfriends"
+                        lyman:text="首页"
+                        lyman:text_size="@dimen/activity_main_ChangeColorIconWithText_text_size"
+                        lyman:color="@color/activity_main_ChangeColorIconWithText_lymain_color" />
+
+                    <com.lyy.hitogether.view.ChangeColorIconWithText
+                        android:id="@+id/id_two"
+                        android:layout_width="@dimen/activity_main_ChangeColorIconWithText_layout_width"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="@dimen/activity_main_ChangeColorIconWithText_padding"
+                        lyman:icon="@drawable/ic_menu_friendslist"
+                        lyman:text="@string/activity_main_ChangeColorIconWithText_id_one_lyman_text"
+                        lyman:text_size="@dimen/activity_main_ChangeColorIconWithText_text_size"
+                        lyman:color="@color/activity_main_ChangeColorIconWithText_lymain_color" />
+
+                    <com.lyy.hitogether.view.ChangeColorIconWithText
+                        android:id="@+id/id_three"
+                        android:layout_width="@dimen/activity_main_ChangeColorIconWithText_layout_width"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="@dimen/activity_main_ChangeColorIconWithText_padding"
+                        lyman:icon="@drawable/ic_menu_emoticons"
+                        lyman:text="@string/activity_main_ChangeColorIconWithText_id_two_lyman_text"
+                        lyman:text_size="@dimen/activity_main_ChangeColorIconWithText_text_size"
+                        lyman:color="@color/activity_main_ChangeColorIconWithText_lymain_color" />
+
+                    <com.lyy.hitogether.view.ChangeColorIconWithText
+                        android:id="@+id/id_four"
+                        android:layout_width="@dimen/activity_main_ChangeColorIconWithText_layout_width"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="@dimen/activity_main_ChangeColorIconWithText_padding"
+                        lyman:icon="@drawable/ic_menu_allfriends"
+                        lyman:text="@string/activity_main_ChangeColorIconWithText_id_three_lyman_text"
+                        lyman:text_size="@dimen/activity_main_ChangeColorIconWithText_text_size"
+                        lyman:color="@color/activity_main_ChangeColorIconWithText_lymain_color" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- The navigation drawer -->
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="@dimen/activity_main_listView_layout_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@android:color/background_light"
+            android:cacheColorHint="@android:color/transparent"
+            android:choiceMode="singleChoice"
+            android:divider="@color/lightgray"
+            android:dividerHeight="@dimen/activity_main_listView_dividerHeight"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

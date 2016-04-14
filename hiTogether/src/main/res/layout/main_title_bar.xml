@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lyy.hitogether.view.MainTopbarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_main_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/light_blue"
+    android:orientation="vertical" >
+
+    <com.lyy.hitogether.view.CircleImageView
+        android:id="@+id/id_main_title_bar_avatar"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="3dp"
+        android:src="@drawable/default_avarter" />
+
+    <RadioGroup
+        android:id="@+id/id_main_title_bar_radio_group"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/main_title_radiogroup"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/id_main_title_bar_radio_group_radio_button_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/main_title_radiobutton1"
+            android:button="@null"
+            android:checked="true"
+            android:paddingLeft="12dp"
+            android:text="目的地"
+            android:textColor="@color/radio_button_text_select_color"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/id_main_title_bar_radio_group_radio_button_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:paddingLeft="10dp"
+            android:text="朋友圈"
+            android:textColor="@color/radio_button_text_unselect_color"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <com.lyy.hitogether.view.CircleImageView
+        android:id="@+id/id_main_title_bar_go"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_margin="3dp"
+        android:src="@drawable/perm_group_location" />
+
+</com.lyy.hitogether.view.MainTopbarView>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ 
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <com.lyy.hitogether.view.CircleImageView
+            android:id="@+id/id_first_fragment_of_friend_list_avartar"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/default_avarter" />
+
+        <TextView
+            android:id="@+id/id_first_fragment_of_friend_list_friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/id_first_fragment_of_friend_list_avartar"
+            android:text="乐友游"
+           />
+
+        <TextView
+            android:id="@+id/id_first_fragment_of_friend_list_send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_first_fragment_of_friend_list_friend_name"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/id_first_fragment_of_friend_list_avartar"
+            android:text="11:11"
+             />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/id_first_fragment_of_friend_list_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="今天是个好日子，有没有想去玩的啊！！！"
+         />
+
+    <com.lyy.hitogether.view.CustomGalleryView
+        android:id="@+id/id_first_fragment_of_friend_list_customGalleryView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/id_first_fragment_of_friend_list_collection"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/first_fragment_of_friend_bt_selector"
+            android:padding="3dp"
+            android:textSize="12sp"
+            android:src="@drawable/no_praise"
+            android:text="取消收藏"
+           />
+
+        <Button
+            android:id="@+id/id_first_fragment_of_friend_list_No"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_toRightOf="@+id/id_first_fragment_of_friend_list_collection"
+            android:background="@drawable/first_fragment_of_friend_bt_selector"
+            android:padding="3dp"
+            android:layout_marginLeft="5dp"
+            android:text="订单编号"
+           
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/id_first_fragment_of_friend_list_praise"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/id_first_fragment_of_friend_list_talk_to_friend_bt"
+            android:background="@drawable/first_fragment_of_friend_praise_bt_selector"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="赞"
+   
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/id_first_fragment_of_friend_list_talk_to_friend_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/first_fragment_of_friend_bt_selector"
+            android:text="聊天"
+   
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

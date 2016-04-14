@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/id_fragment_second_destination"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/fragment_second_textview_shape"
+        android:gravity="center"
+        android:hint="目的地"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/id_fragment_second_time"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/fragment_second_textview_shape"
+        android:gravity="center"
+         android:hint="出发时间"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/id_fragment_second_people_count"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/fragment_second_textview_shape"
+        android:gravity="center"
+        android:hint="人数"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/fragment_second_send_bt"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/id_fragment_second_people_count"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bt_login_shape"
+        android:text="提交"
+        android:textColor="@android:color/white" />
+    
+    <View
+        android:id="@+id/id_view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@android:color/background_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-70dp"/>
+
+</RelativeLayout>

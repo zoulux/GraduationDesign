@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyman="http://schemas.android.com/apk/res/com.lyy.hitogether"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.lyy.hitogether.view.CustomTitleBarView
+        android:id="@+id/id_share_my_traval_CustomTitleBarView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_blue"
+        lyman:leftType="image"
+        lyman:leftImageSource="@drawable/back_indicator"
+        lyman:leftImagePaddingLeft="5dp"
+        lyman:rightType="image"
+        lyman:rightImageSource="@drawable/ic_launcher"
+        lyman:rightImagePaddingRight="5dp"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="分享你的需求。。。。"
+        android:padding="5dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/darker_gray" />
+
+    <GridView
+        android:id="@+id/id_share_my_traval_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:cacheColorHint="@android:color/transparent"
+        android:horizontalSpacing="3dp"
+        android:listSelector="@android:color/transparent"
+        android:verticalSpacing="3dp"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth" >
+    </GridView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:text="地点"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:src="@drawable/ic_menu_forward" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+    </LinearLayout>
+
+</LinearLayout>
