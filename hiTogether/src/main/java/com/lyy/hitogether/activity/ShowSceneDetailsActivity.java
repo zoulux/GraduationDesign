@@ -1,7 +1,5 @@
 package com.lyy.hitogether.activity;
 
-import java.util.Date;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -9,12 +7,6 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
-import cn.bmob.im.BmobUserManager;
-import cn.sharesdk.framework.ShareSDK;
-import cn.sharesdk.onekeyshare.OnekeyShare;
-import cn.sharesdk.socialization.QuickCommentBar;
-import cn.sharesdk.socialization.Socialization;
-import cn.sharesdk.socialization.SocializationCustomPlatform;
 
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
@@ -26,6 +18,15 @@ import com.lyy.hitogether.view.CustomTitleBarView.onLeftBarViewClickListener;
 import com.lyy.hitogether.view.MyGuideOrTravalersLayout;
 import com.lyy.hitogether.view.MyGuideOrTravalersLayout.onGuideItemClickListener;
 import com.nostra13.universalimageloader.core.ImageLoader;
+
+import java.util.Date;
+
+import cn.bmob.im.BmobUserManager;
+import cn.sharesdk.framework.ShareSDK;
+import cn.sharesdk.onekeyshare.OnekeyShare;
+import cn.sharesdk.socialization.QuickCommentBar;
+import cn.sharesdk.socialization.Socialization;
+import cn.sharesdk.socialization.SocializationCustomPlatform;
 
 public class ShowSceneDetailsActivity extends BaseActivity implements
 		OnClickListener {
@@ -132,7 +133,7 @@ public class ShowSceneDetailsActivity extends BaseActivity implements
 		//
 		// @Override
 		// public void onClick(View v) {
-		// ShowToast("travalersMore");
+		// showToast("travalersMore");
 		//
 		// }
 		// });
@@ -141,7 +142,7 @@ public class ShowSceneDetailsActivity extends BaseActivity implements
 		//
 		// @Override
 		// public void onClick(View v) {
-		// ShowToast("guidesMore");
+		// showToast("guidesMore");
 		//
 		// }
 		// });

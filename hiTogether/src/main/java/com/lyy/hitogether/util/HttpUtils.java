@@ -1,25 +1,22 @@
 package com.lyy.hitogether.util;
 
-import io.rong.imlib.model.UserInfo;
+import android.content.Context;
+import android.net.Uri;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.lyy.hitogether.bean.MyUser;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.content.Context;
-import android.net.Uri;
-import android.util.Log;
+import java.util.ArrayList;
+import java.util.List;
+
 import cn.bmob.v3.AsyncCustomEndpoints;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.listener.CloudCodeListener;
 import cn.bmob.v3.listener.FindListener;
-
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.lyy.hitogether.bean.MyUser;
+import io.rong.imlib.model.UserInfo;
 
 public class HttpUtils {
 	private static AsyncCustomEndpoints code;
@@ -28,7 +25,7 @@ public class HttpUtils {
 			JSONObject params, CloudCodeListener listener) {
 		code = new AsyncCustomEndpoints();
 		code.callEndpoint(context, method, params, listener);
-	};
+	}
 
 	public interface MyResultListener<T> {
 		void onSuccess(List<T> list);

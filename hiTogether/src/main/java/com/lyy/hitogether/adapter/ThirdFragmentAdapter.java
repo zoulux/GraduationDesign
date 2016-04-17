@@ -1,13 +1,9 @@
 package com.lyy.hitogether.adapter;
 
-import java.util.List;
-
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RatingBar;
@@ -16,11 +12,10 @@ import android.widget.TextView;
 
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.bean.Service;
-import com.lyy.hitogether.bean.ThirdFragmentBean;
 import com.lyy.hitogether.view.CircleImageView;
-import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+
+import java.util.List;
 
 public class ThirdFragmentAdapter extends MyBaseAdapter<Service> {
 	private OnThirdFragmentBtListener mThirdFragmentBtListener;
@@ -48,8 +43,9 @@ public class ThirdFragmentAdapter extends MyBaseAdapter<Service> {
 
 	public ThirdFragmentAdapter(Context context, List<Service> commonDatas) {
 		super(context, commonDatas);
-
 	}
+
+
 
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent) {

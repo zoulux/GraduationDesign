@@ -163,7 +163,7 @@ public class LoginActivity extends BaseActivity {
 				//
 				// @Override
 				// public void onError(ErrorCode arg0) {
-				// ShowToast("连接失败");
+				// showToast("连接失败");
 				// LoginActivity.this.finish();
 				// }
 				//

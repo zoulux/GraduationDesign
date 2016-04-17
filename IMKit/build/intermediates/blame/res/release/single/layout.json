@@ -248,12 +248,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_ac_camera.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_input_menu_item.xml",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_input_menu_item.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_location_message.xml",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_item_location_message.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_input_menu_item.xml",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_input_menu_item.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_wi_vo_provider.xml",

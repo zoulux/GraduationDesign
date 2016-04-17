@@ -8,6 +8,10 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\layout\\bmob_update_dialog.xml"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\layout\\item_friend.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\layout\\item_friend.xml"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_base_conversation.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\layout\\rc_item_base_conversation.xml"
     },
@@ -64,12 +68,12 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\layout\\rc_calledside_layout.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_service_pop_view.xml",
-        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\layout\\activity_my_service_pop_view.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_text_message.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\layout\\rc_item_text_message.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_service_pop_view.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\layout\\activity_my_service_pop_view.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_alert_robot_evaluation.xml",

@@ -3,7 +3,6 @@ package com.lyy.hitogether.bean;
 import java.util.List;
 
 import cn.bmob.im.bean.BmobChatUser;
-import cn.bmob.v3.datatype.BmobDate;
 
 public class MyUser extends BmobChatUser {
 	String gender; // 0 女 1 男 2UnKnow
@@ -15,6 +14,7 @@ public class MyUser extends BmobChatUser {
 	List<String> collectionDemands; // 收藏单号
 	Integer age;
 	String token;
+	String picture;
 
 	Integer sdkVerSion; // sdk版本
 	String model;
@@ -123,4 +123,47 @@ public class MyUser extends BmobChatUser {
 				+ ", isAuthentication=" + isAuthentication + "]";
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+
+		MyUser myUser = (MyUser) o;
+
+		if (gender != null ? !gender.equals(myUser.gender) : myUser.gender != null) return false;
+		if (birthday != null ? !birthday.equals(myUser.birthday) : myUser.birthday != null)
+			return false;
+		if (label != null ? !label.equals(myUser.label) : myUser.label != null) return false;
+		if (isAuthentication != null ? !isAuthentication.equals(myUser.isAuthentication) : myUser.isAuthentication != null)
+			return false;
+		if (identity != null ? !identity.equals(myUser.identity) : myUser.identity != null)
+			return false;
+		if (star != null ? !star.equals(myUser.star) : myUser.star != null) return false;
+		if (collectionDemands != null ? !collectionDemands.equals(myUser.collectionDemands) : myUser.collectionDemands != null)
+			return false;
+		if (age != null ? !age.equals(myUser.age) : myUser.age != null) return false;
+		if (token != null ? !token.equals(myUser.token) : myUser.token != null) return false;
+		if (sdkVerSion != null ? !sdkVerSion.equals(myUser.sdkVerSion) : myUser.sdkVerSion != null)
+			return false;
+		if (model != null ? !model.equals(myUser.model) : myUser.model != null) return false;
+		return brand != null ? brand.equals(myUser.brand) : myUser.brand == null;
+
+	}
+
+	@Override
+	public int hashCode() {
+		int result = gender != null ? gender.hashCode() : 0;
+		result = 31 * result + (birthday != null ? birthday.hashCode() : 0);
+		result = 31 * result + (label != null ? label.hashCode() : 0);
+		result = 31 * result + (isAuthentication != null ? isAuthentication.hashCode() : 0);
+		result = 31 * result + (identity != null ? identity.hashCode() : 0);
+		result = 31 * result + (star != null ? star.hashCode() : 0);
+		result = 31 * result + (collectionDemands != null ? collectionDemands.hashCode() : 0);
+		result = 31 * result + (age != null ? age.hashCode() : 0);
+		result = 31 * result + (token != null ? token.hashCode() : 0);
+		result = 31 * result + (sdkVerSion != null ? sdkVerSion.hashCode() : 0);
+		result = 31 * result + (model != null ? model.hashCode() : 0);
+		result = 31 * result + (brand != null ? brand.hashCode() : 0);
+		return result;
+	}
 }

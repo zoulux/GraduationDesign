@@ -2,13 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/id_first_fragment_of_friend_list"
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/sl_friend"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="@drawable/group_divider"
-        android:dividerHeight="1.0px" />
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_friend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
 
 </LinearLayout>

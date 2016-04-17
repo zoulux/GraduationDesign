@@ -56,12 +56,12 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\drawable\\rc_bg_menu.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\warning_sigh.xml",
-        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable\\warning_sigh.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_no_selector.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\drawable\\rc_ic_no_selector.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\warning_sigh.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable\\warning_sigh.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\text_shape.xml",

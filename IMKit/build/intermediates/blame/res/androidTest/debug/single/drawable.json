@@ -76,12 +76,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_keyboard.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_sound_off_selector.xml",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_sound_off_selector.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_admin_selector.xml",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_admin_selector.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_sound_off_selector.xml",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_sound_off_selector.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ed_public_service_search_selector.xml",

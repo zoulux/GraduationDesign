@@ -1,13 +1,8 @@
 package com.lyy.hitogether.activity.fragment;
 
-import io.rong.imkit.RongIM;
-import io.rong.imlib.model.UserInfo;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Message;
@@ -20,8 +15,6 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
-import cn.bmob.push.a.in;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.handmark.pulltorefresh.library.ILoadingLayout;
@@ -30,15 +23,8 @@ import com.handmark.pulltorefresh.library.PullToRefreshGridView;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.ShowSceneDetailsActivity;
-import com.lyy.hitogether.activity.fragment.first_fragment.FirstFragmentDestination;
 import com.lyy.hitogether.adapter.PictureAndTextAdapter;
-import com.lyy.hitogether.adapter.ThirdFragmentAdapter;
-import com.lyy.hitogether.adapter.ThirdFragmentAdapter.OnThirdFragmentBtListener;
 import com.lyy.hitogether.bean.HotScenic;
-import com.lyy.hitogether.bean.MyUser;
-import com.lyy.hitogether.bean.Service;
-import com.lyy.hitogether.bean.ThirdFragmentBean;
-import com.lyy.hitogether.global.App;
 import com.lyy.hitogether.mydialog.SweetAlertDialog;
 
 public class ThirdFragment extends BaseFragment {
@@ -185,7 +171,7 @@ public class ThirdFragment extends BaseFragment {
 		Log.i("ThirdFragment", "handleFaild");
 		sweetAlertDialog.dismiss();
 		// baseProgress.cancel();
-		ShowToast("请检查网络");
+		showToast("请检查网络");
 	}
 
 	/**

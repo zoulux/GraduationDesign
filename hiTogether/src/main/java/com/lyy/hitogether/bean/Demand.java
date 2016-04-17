@@ -3,7 +3,6 @@ package com.lyy.hitogether.bean;
 import java.util.List;
 
 import cn.bmob.v3.BmobObject;
-import cn.bmob.v3.datatype.BmobDate;
 
 public class Demand extends BmobObject {
 
@@ -25,6 +24,7 @@ public class Demand extends BmobObject {
 	String demandProgress;// 订单进度
 	List<String> photoPath; // 协同照片
 	Integer zan; //
+	MyUser user;
 
 	public Integer getZan() {
 		return zan;
@@ -90,4 +90,11 @@ public class Demand extends BmobObject {
 		this.photoPath = photoPath;
 	}
 
+	public MyUser getUser() {
+		return user;
+	}
+
+	public void setUser(MyUser user) {
+		this.user = user;
+	}
 }

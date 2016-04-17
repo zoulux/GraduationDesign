@@ -1,88 +1,92 @@
 package com.lyy.hitogether.activity.fragment.first_fragment;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import android.content.Intent;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Message;
-import android.support.v4.app.Fragment;
+import android.support.annotation.Nullable;
+import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.webkit.WebView.FindListener;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.Button;
-import android.widget.GridView;
-import android.widget.ListView;
-import android.widget.Toast;
-import cn.bmob.im.util.BmobUtils;
-import cn.bmob.v3.Bmob;
-import cn.bmob.v3.datatype.BmobDate;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.fragment.BaseFragment;
-import com.lyy.hitogether.adapter.FirstFragmentOfFriendAdapter;
-import com.lyy.hitogether.adapter.PictureAndTextAdapter;
-import com.lyy.hitogether.bean.FirstFragmentOfFriendbean;
+import com.lyy.hitogether.adapter.FriendAdapter;
+import com.lyy.hitogether.bean.Demand;
 
-public class FirstFragmentOfFriend extends BaseFragment {
+import java.util.List;
 
-	private ListView listView;
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		return inflater.inflate(R.layout.fragment_first_of_friend, null);
-		
-	}
+public class FirstFragmentOfFriend extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
 
-	@Override
-	public void onViewCreated(View view, Bundle savedInstanceState) {
-		super.onViewCreated(view, savedInstanceState);
-		initView(view);
-		initData();
-	}
+    private static final String TAG = "FirstFragmentOfFriend";
+    private View rootContainer;
+    @Bind(R.id.rv_friend)
+    RecyclerView recyclerView;
+    private Context context;
+    private FriendAdapter adapter;
 
-	private void initView(View view) {
-		listView = (ListView) view
-				.findViewById(R.id.id_first_fragment_of_friend_list);
-	}
+    @Bind(R.id.sl_friend)
+    SwipeRefreshLayout swipeRefreshLayout;
 
-	private void initData() {
-		listView.setAdapter(new FirstFragmentOfFriendAdapter(
-				FirstFragmentOfFriend.this.getActivity(), getDatas()));
 
-	}
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        context = container.getContext();
+        if (rootContainer == null) {
+            this.rootContainer = inflater.inflate(R.layout.fragment_first_of_friend, container, false);
+            ButterKnife.bind(this, rootContainer);
+            recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
+            adapter = new FriendAdapter();
+            recyclerView.setAdapter(adapter);
+            swipeRefreshLayout.setOnRefreshListener(this);
+            swipeRefreshLayout.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light,
+                    android.R.color.holo_orange_light, android.R.color.holo_red_light);
+        }
+        return rootContainer;
 
-	int a = 0;
-	int left = 0;
+    }
 
-	private List<FirstFragmentOfFriendbean> getDatas() {
-		List<FirstFragmentOfFriendbean> list = new ArrayList<FirstFragmentOfFriendbean>();
-		for (int i = 0; i < 20; i++) {
-			a = (int) (Math.random() * 10);
-			left = 1000 + (int) (Math.random() * 1000);
-			list.add(new FirstFragmentOfFriendbean("大雁" + i, i,
-					"我想去火星啊！！！" + i, "12:" + i, a, "8888888888888" + left,
-					String.valueOf(i)));
-		}
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+      //  swipeRefreshLayout.setRefreshing(true);
+        postAsync("getDemand", null);
+    }
 
-		return list;
-	}
+    @Override
+    public boolean handleMessage(Message msg) {
+        if (msg.what == BaseFragment.GET_SUCCESS) {
+            Log.d(TAG, "handleMessage: " + msg.obj);
+            Gson gson = new Gson();
+            List<Demand> data = gson.fromJson(msg.obj.toString(), new TypeToken<List<Demand>>() {
+            }.getType());
+            adapter.setData(data);
+        } else {
+            showToast("加载失败");
+        }
+        swipeRefreshLayout.setRefreshing(false);
 
-	@Override
-	public boolean handleMessage(Message msg) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+        return false;
+    }
 
-	@Override
-	protected void lazyLoad() {
-		// TODO Auto-generated method stub
+    @Override
+    protected void lazyLoad() {
 
-	}
 
+    }
+
+
+    @Override
+    public void onRefresh() {
+        postAsync("getDemand", null);
+    }
 }

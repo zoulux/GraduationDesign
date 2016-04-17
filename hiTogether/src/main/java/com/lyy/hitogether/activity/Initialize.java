@@ -41,7 +41,7 @@ public class Initialize extends BaseActivity {
 		//
 		// @Override
 		// public void success(String userId) {
-		// ShowToast("连接成功");
+		// showToast("连接成功");
 		//
 		// try {
 		//
@@ -59,7 +59,7 @@ public class Initialize extends BaseActivity {
 		// @Override
 		// public void faild() {
 		// Initialize.this.finish();
-		// ShowToast("连接失败");
+		// showToast("连接失败");
 		//
 		// }
 		// });

@@ -96,6 +96,11 @@ public class MyAlbumActivity extends BaseActivity {
 		initEvent();
 	}
 
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+	}
+
 	protected void initDirPopUpWindow() {
 		mDirPopUpWindow = new ListImageDirPopUpWindow(this, mFolderBeans);
 		mDirPopUpWindow.setOnDismissListener(new OnDismissListener() {
