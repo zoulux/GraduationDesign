@@ -52,6 +52,7 @@
     </RadioGroup>
 
     <com.lyy.hitogether.view.CircleImageView
+        android:visibility="invisible"
         android:id="@+id/id_main_title_bar_go"
         android:layout_width="50dp"
         android:layout_height="match_parent"

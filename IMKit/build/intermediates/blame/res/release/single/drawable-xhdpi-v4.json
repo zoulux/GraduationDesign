@@ -44,12 +44,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ed_pub_service_search_normal.9.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_wraning.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_volume_wraning.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_volume_four.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_volume_four.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_wraning.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_volume_wraning.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_4.png",
@@ -76,20 +76,20 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f605.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f48b.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f48b.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f339.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f339.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_white.9.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_white.9.png"
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f48b.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f48b.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_call_answer.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_call_answer.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_white.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_white.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_radio_button_off.png",
@@ -288,12 +288,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_sound_off_disable.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f631.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f631.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_bg_text_hover.9.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_bg_text_hover.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f631.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f631.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_checkbox_pressed.png",
@@ -308,12 +308,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_default_group_portrait.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_add_people.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_add_people.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f44d.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f44d.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_add_people.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_add_people.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_checkbox_normal.png",

@@ -32,12 +32,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_rich_content_message.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fragment_base_setting.xml",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_fragment_base_setting.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_block.xml",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_wi_block.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fragment_base_setting.xml",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_fragment_base_setting.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menu_item.xml",

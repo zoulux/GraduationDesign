@@ -22,7 +22,6 @@ dependencies {
     compile project(':base_library_pullToRefresh_chenyoca')
     compile project(':IMKit')
     compile project(':socialization')
-    compile 'com.android.support:support-v4:23.0.1'
     compile 'com.google.code.gson:gson:2.2.4'
     compile files('libs/BmobIM_V1.1.9beta_20150820.jar')
     compile files('libs/BmobSDK_V3.4.4_0930.jar')
@@ -43,4 +42,5 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:23.1.1'
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.android.support:cardview-v7:23.0.1'
+    compile 'com.bartoszlipinski.recyclerviewheader:library:1.2.0'
 }

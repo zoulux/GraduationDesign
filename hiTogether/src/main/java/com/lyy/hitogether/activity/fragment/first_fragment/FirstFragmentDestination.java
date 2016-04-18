@@ -58,15 +58,20 @@ public class FirstFragmentDestination extends BaseFragment {
 
     // private SweetAlertDialog alertDialog;
 
+    private View rootContainer;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_first_destination, null);
-        isPrepared = true;
-        init(view);
+        if (rootContainer==null){
+            rootContainer=inflater.inflate(R.layout.fragment_first_destination, null);
+            isPrepared = true;
+            init(rootContainer);
 
-        lazyLoad();
-        return view;
+            lazyLoad();
+        }
+
+        return rootContainer;
     }
 
     private void initIndicator() {

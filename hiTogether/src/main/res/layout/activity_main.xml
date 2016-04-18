@@ -20,7 +20,6 @@
         lyman:centerTextSize="20sp"
         lyman:centerTextColor="@android:color/white"
         lyman:leftType="image"
-        lyman:leftImageSource="@drawable/switch_draw_menu"
         lyman:leftImagePadding="2dp"
          />
 
@@ -35,7 +34,6 @@
         lyman:centerTextSize="20sp"
         lyman:centerTextColor="@android:color/white"
         lyman:leftType="image"
-        lyman:leftImageSource="@drawable/switch_draw_menu"
         lyman:leftImagePadding="2dp"/>
 
     <com.lyy.hitogether.view.CustomTitleBarView
@@ -48,13 +46,12 @@
         lyman:centerTextSize="20sp"
         lyman:centerTextColor="@android:color/white"
         lyman:centerType="text"
-        lyman:rightText="添加"
+        lyman:rightText="添加群"
         lyman:rightTextSize="18sp"
         lyman:rightTextPaddingRight="10dp"
         lyman:rightTextColor="@android:color/white"
         lyman:rightType="text"
         lyman:leftType="image"
-        lyman:leftImageSource="@drawable/switch_draw_menu"
         lyman:leftImagePadding="2dp"
          />
     

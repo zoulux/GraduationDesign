@@ -44,7 +44,7 @@ public class FirstFragmentOfFriend extends BaseFragment implements SwipeRefreshL
         if (rootContainer == null) {
             this.rootContainer = inflater.inflate(R.layout.fragment_first_of_friend, container, false);
             ButterKnife.bind(this, rootContainer);
-            recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
+            recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL));
             adapter = new FriendAdapter();
             recyclerView.setAdapter(adapter);
             swipeRefreshLayout.setOnRefreshListener(this);

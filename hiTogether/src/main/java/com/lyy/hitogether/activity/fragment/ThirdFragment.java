@@ -1,7 +1,5 @@
 package com.lyy.hitogether.activity.fragment;
 
-import java.util.List;
-
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -19,13 +17,15 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.handmark.pulltorefresh.library.ILoadingLayout;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
-import com.handmark.pulltorefresh.library.PullToRefreshGridView;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
+import com.handmark.pulltorefresh.library.PullToRefreshGridView;
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.ShowSceneDetailsActivity;
 import com.lyy.hitogether.adapter.PictureAndTextAdapter;
 import com.lyy.hitogether.bean.HotScenic;
 import com.lyy.hitogether.mydialog.SweetAlertDialog;
+
+import java.util.List;
 
 public class ThirdFragment extends BaseFragment {
 	// private PullToRefreshGridView mGridView;
@@ -49,18 +49,24 @@ public class ThirdFragment extends BaseFragment {
 
 	// private boolean mHasLoadOnce=false;
 
+	private View rootContainer;
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		Log.i("ThirdFragment", "onCreateView");
-		View view = inflater.inflate(R.layout.fragment_third, container, false);
-		init(view);
-		isPrepared = true;
 
-		Log.i("TAG", "2");
-		lazyLoad();
+		if (rootContainer==null){
+			rootContainer=inflater.inflate(R.layout.fragment_third, container, false);
+			init(rootContainer);
+			isPrepared = true;
 
-		return view;
+			Log.i("TAG", "2");
+			lazyLoad();
+		}
+
+
+		return rootContainer;
 	}
 
 	private void init(View view) {

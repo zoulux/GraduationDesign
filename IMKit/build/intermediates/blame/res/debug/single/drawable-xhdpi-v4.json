@@ -140,12 +140,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f601.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_voice_receive.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_voice_receive.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f680.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f680.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_voice_receive.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_voice_receive.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f3b5.png",
@@ -208,12 +208,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f494.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f3e1.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f3e1.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_icon_admin.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_icon_admin.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f3e1.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f3e1.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_volume_three.png",
@@ -236,12 +236,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f36b.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f632.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f632.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_voice_receive_play3.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_voice_receive_play3.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f632.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f632.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_volume_5.png",

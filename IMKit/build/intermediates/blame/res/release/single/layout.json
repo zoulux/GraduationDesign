@@ -32,12 +32,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_fr_public_service_sub_list.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_base_conversation.xml",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_item_base_conversation.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_discussion_conversation.xml",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_item_discussion_conversation.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_base_conversation.xml",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\layout\\rc_item_base_conversation.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_wi_txt_provider.xml",

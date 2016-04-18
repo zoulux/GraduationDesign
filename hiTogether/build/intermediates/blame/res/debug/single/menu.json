@@ -2,5 +2,9 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\menu\\drawer.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\menu\\drawer.xml"
     }
 ]
