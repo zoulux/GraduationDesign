@@ -1,20 +1,19 @@
 package com.lyy.hitogether.activity.fragment.first_fragment;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.view.MyViewPager;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class FirstFragment extends Fragment {
 
@@ -26,7 +25,6 @@ public class FirstFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		firstFragmentDestination.setCountMin();
 		return inflater.inflate(R.layout.fragment_first, null);
 
 	}
@@ -76,7 +74,6 @@ public class FirstFragment extends Fragment {
 	@Override
 	public void onDestroyView() {
 		System.err.println("onDestroyViewMax");
-		firstFragmentDestination.setCountMax();
 
 		super.onDestroy();
 	}

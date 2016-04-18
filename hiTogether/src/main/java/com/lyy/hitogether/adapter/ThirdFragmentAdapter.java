@@ -52,7 +52,7 @@ public class ThirdFragmentAdapter extends MyBaseAdapter<Service> {
 		ViewHolder viewHolder = null;
 		if (convertView == null) {
 			viewHolder = new ViewHolder();
-			convertView = commomInflater.inflate(R.layout.item_third_fragment,
+			convertView = commomInflater.inflate(R.layout.item_deatination,
 					null);
 
 			viewHolder.guideImage = (CircleImageView) convertView

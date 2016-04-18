@@ -16,83 +16,92 @@ import org.json.JSONObject;
 import cn.bmob.v3.listener.CloudCodeListener;
 
 public abstract class BaseFragment extends Fragment implements Callback {
-	protected static final int GET_SUCCESS = 0x110;
-	protected static final int GET_FAILD = 0x111;
-	protected Handler baseHandler = new Handler(this);
-	protected boolean isVisible;
+    protected static final int GET_SUCCESS = 0x110;
+    protected static final int GET_FAILD = 0x111;
+    protected Handler baseHandler = new Handler(this);
+    protected boolean isVisible;
 
-	 protected ProgressDialog baseProgress = null;
+    protected ProgressDialog baseProgress = null;
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		initProgress();
-		super.onCreate(savedInstanceState);
-	}
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        initProgress();
+        super.onCreate(savedInstanceState);
+    }
 
-	private void initProgress() {
-		baseProgress=new ProgressDialog(getActivity());
-		baseProgress.setTitle("Loading");
-	}
+    private void initProgress() {
+        baseProgress = new ProgressDialog(getActivity());
+        baseProgress.setTitle("Loading");
+    }
 
-	protected void postAsync(String mosth, JSONObject params) {
-		Log.i("BaseFragment", "postAsync");
-		HttpUtils.getHttpData(getActivity(), mosth, null,
-				new CloudCodeListener() {
+    protected void postAsync(final String mosth, JSONObject params) {
+        Log.i("BaseFragment", "postAsync");
+        HttpUtils.getHttpData(getActivity(), mosth, null,
+                new CloudCodeListener() {
 
-					@Override
-					public void onSuccess(Object results) {
-						Log.i("BaseFragment", "onSuccess");
-						Message msg = Message.obtain();
-						msg.what = GET_SUCCESS;
-						msg.obj = results;
-						baseHandler.sendMessage(msg);
+                    @Override
+                    public void onSuccess(Object results) {
+                        Log.i("BaseFragment", "onSuccess");
+                        Message msg = Message.obtain();
+                        msg.what = GET_SUCCESS;
+                        msg.obj = results;
+                        if ("getRoundImg".equals(mosth)) {
+                            msg.arg1 = 1;
 
-					}
+                        }
 
-					@Override
-					public void onFailure(int code, String arg1) {
-						Log.i("BaseFragment", "onFailure");
-						Message msg = Message.obtain();
-						msg.what = GET_FAILD;
-						msg.obj = code;
-						baseHandler.sendMessage(msg);
-					}
-				});
+                        baseHandler.sendMessage(msg);
 
-	}
+                    }
 
-	@Override
-	public void setUserVisibleHint(boolean isVisibleToUser) {
-		super.setUserVisibleHint(isVisibleToUser);
-		if (getUserVisibleHint()) {
-			isVisible = true;
-			onVisible();
-		} else {
-			isVisible = false;
-			onInvisible();
-		}
+                    @Override
+                    public void onFailure(int code, String arg1) {
+                        Log.i("BaseFragment", "onFailure");
+                        Message msg = Message.obtain();
+                        msg.what = GET_FAILD;
+                        msg.obj = code;
+                        if ("getRoundImg".equals(mosth)) {
+                            msg.arg1 = 1;
+                        }
 
-	}
+                        baseHandler.sendMessage(msg);
+                    }
+                });
 
-	protected void onVisible() {
-		Log.i("TAG", "1");
-		lazyLoad();
-	}
+    }
 
-	protected void onInvisible() {
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (getUserVisibleHint()) {
+            isVisible = true;
+            onVisible();
+        } else {
+            isVisible = false;
+            onInvisible();
+        }
 
-	}
+    }
 
-	protected abstract void lazyLoad();
+    protected void onVisible() {
+        Log.i("TAG", "1");
+        lazyLoad();
+    }
+
+    protected void onInvisible() {
+
+    }
+
+    protected abstract void lazyLoad();
 
 
-	public void showToast(int resId) {
+    public void showToast(int resId) {
 
-		ToastUtil.message(resId);
-	}
+        ToastUtil.message(resId);
+    }
 
-	public void showToast(String string) {
-		ToastUtil.message(string);
-	}
+    public void showToast(String string) {
+        ToastUtil.message(string);
+    }
 
 }

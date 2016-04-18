@@ -8,12 +8,12 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_done_white_36dp.png",
-        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_done_white_36dp.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_done_white_36dp.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_done_white_36dp.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
@@ -64,6 +64,10 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\ic_menu_forward.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_off_focused_holo_light.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\account_icon.png",
@@ -276,6 +284,10 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_floor_sgl.9.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_on_pressed_holo_light.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_pressed_holo_light.png"
     },
@@ -290,6 +302,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_indicator_rotate.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\base_library_pullToRefresh_chenyoca\\unspecified\\res\\drawable-hdpi-v4\\default_indicator_rotate.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-hdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_settings_input_antenna_white_48dp.png",
@@ -310,6 +326,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_social_cl_default_icon.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\socialization\\unspecified\\res\\drawable-hdpi-v4\\ssdk_social_cl_default_icon.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_favorite_outline_white_48dp.png",
@@ -506,6 +526,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_on_holo_light.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/base_library_pullToRefresh_chenyoca/base_library_pullToRefresh_chenyoca.iml" filepath="$PROJECT_DIR$/base_library_pullToRefresh_chenyoca/base_library_pullToRefresh_chenyoca.iml" />
       <module fileurl="file://$PROJECT_DIR$/hiTogether/hiTogether.iml" filepath="$PROJECT_DIR$/hiTogether/hiTogether.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infiniteviewpager/infiniteviewpager.iml" filepath="$PROJECT_DIR$/infiniteviewpager/infiniteviewpager.iml" />
       <module fileurl="file://$PROJECT_DIR$/socialization/socialization.iml" filepath="$PROJECT_DIR$/socialization/socialization.iml" />
     </modules>
   </component>

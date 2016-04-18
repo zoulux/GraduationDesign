@@ -1,3 +1,3 @@
-include ':socialization', ':IMKit'
+include ':socialization', ':IMKit', ':infiniteviewpager'
 include ':base_library_pullToRefresh_chenyoca'
 include ':hiTogether'

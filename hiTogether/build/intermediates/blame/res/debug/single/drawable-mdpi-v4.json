@@ -36,6 +36,14 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -100,6 +108,10 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -114,6 +126,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_start_conversation.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_menu_start_conversation.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
@@ -202,6 +218,14 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",

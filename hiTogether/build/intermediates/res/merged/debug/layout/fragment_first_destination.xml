@@ -1,61 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sr_destination"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="5"
-        android:orientation="vertical" >
-        <com.lyy.hitogether.view.MyViewPager
-            android:id="@+id/id_viewpager_fragment_first_dec"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" >
+        android:layout_height="match_parent">
 
-
-        </com.lyy.hitogether.view.MyViewPager>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp"
-        android:layout_weight="8"
-        android:gravity="center"
-        android:orientation="vertical" >
-
-
-       
-        
-        <com.handmark.pulltorefresh.library.PullToRefreshGridView
-            xmlns:ptr="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/id_gridview_des"
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_destination"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:cacheColorHint="@android:color/transparent"
-            android:horizontalSpacing="3dp"
-            android:listSelector="@android:color/transparent"
-            android:numColumns="2"
-            android:scrollbars="none"
-            android:stretchMode="columnWidth"
-            android:verticalSpacing="5dp"
-            ptr:ptrAnimationStyle="flip"
-            ptr:ptrDrawable="@drawable/arrow"
-            ptr:ptrHeaderBackground="@android:color/background_light"
-            ptr:ptrHeaderSubTextColor="@android:color/holo_blue_dark"
-            ptr:ptrHeaderTextColor="@android:color/holo_blue_dark"
-            ptr:ptrListViewExtrasEnabled="false"
-            ptr:ptrMode="pullFromStart"
-            ptr:ptrRefreshableViewBackground="@android:color/background_light"
-            ptr:ptrScrollingWhileRefreshingEnabled="true"
-            ptr:ptrShowIndicator="false" />
-    </LinearLayout>
+            android:layout_height="match_parent">
 
-</LinearLayout>
+        </android.support.v7.widget.RecyclerView>
+
+        <com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader
+            android:id="@+id/header_destination"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal|top">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.zanlabs.widget.infiniteviewpager.InfiniteViewPager
+                    android:id="@+id/infinite_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="visible" />
+
+                <com.zanlabs.widget.infiniteviewpager.indicator.CirclePageIndicator
+                    android:padding="2dp"
+                    android:id="@+id/infinite_indicator"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    app:fillColor="@android:color/holo_blue_bright"
+                    app:strokeColor="#ff0"
+                    />
+
+            </RelativeLayout>
+
+        </com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader>
+
+    </FrameLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

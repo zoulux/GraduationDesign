@@ -20,12 +20,12 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_yes_selector.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\drawable\\rc_ic_yes_selector.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_bg_menu.xml",
@@ -44,24 +44,24 @@
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable\\bt_login_shape.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\main_title_radiobutton2.xml",
-        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable\\main_title_radiobutton2.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_voice.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\drawable\\rc_ic_voice.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\main_title_radiobutton2.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable\\main_title_radiobutton2.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_button_background.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\src\\main\\res\\drawable\\gray_button_background.xml"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
-        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\base_library_pullToRefresh_chenyoca\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_smiley.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\drawable\\rc_ic_smiley.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\base_library_pullToRefresh_chenyoca\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\first_fragment_of_friend_praise_bt_bg1.xml",
@@ -410,6 +410,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_an_voice_receive.xml",
         "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\IMKit\\unspecified\\res\\drawable\\rc_an_voice_receive.xml"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\exploded-aar\\HiTogether\\infiniteviewpager\\unspecified\\res\\drawable\\vpi__tab_indicator.xml"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\hiTogether\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_star_selector.xml",

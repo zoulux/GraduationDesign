@@ -301,6 +301,7 @@
         <enum name="image" value="1"/>
         <enum name="button" value="2"/>
     </attr>
+    <attr format="boolean" name="centered"/>
     <attr format="color" name="color"/>
     <attr format="reference" name="icon"/>
     <attr format="reference|color" name="leftButtonBackground"/>
@@ -369,8 +370,16 @@
         <enum name="image" value="1"/>
         <enum name="button" value="2"/>
     </attr>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
     <attr format="string" name="text"/>
     <attr format="dimension" name="text_size"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
     <bool name="rc_is_show_warning_notification">true</bool>
     <bool name="rc_play_audio_continuous">true</bool>
     <bool name="rc_read_receipt">true</bool>
@@ -383,6 +392,15 @@
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
     <color name="error_stroke_color">#F27474</color>
     <color name="float_transparent">#00000000</color>
     <color name="gray_btn_bg_color">#D0D0D0</color>
@@ -418,18 +436,31 @@
     <color name="sweet_dialog_bg_color">#FFFFFF</color>
     <color name="text_color">#575757</color>
     <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
     <color name="warning_stroke_color">#F8BB86</color>
     <declare-styleable name="AsyncImageView"><attr format="dimension" name="RCMinShortSideSize"/><attr format="dimension" name="RCCornerRadius"/><attr name="RCShape"><flag name="square" value="0"/><flag name="circle" value="1"/></attr><attr format="reference" name="RCDefDrawable"/></declare-styleable>
     <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
     <declare-styleable name="ChangeColorIconWithText"><attr name="icon"/><attr name="text"/><attr name="color"/><attr name="text_size"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="GifImageView"><attr format="boolean" name="auto_play"/></declare-styleable>
     <declare-styleable name="InputView"><attr name="RCStyle"><enum name="SCE" value="0x123"/><enum name="CES" value="0x231"/><enum name="ECS" value="0x321"/><enum name="CSE" value="0x213"/><enum name="SC" value="0x120"/><enum name="CS" value="0x21"/><enum name="EC" value="0x320"/><enum name="CE" value="0x023"/><enum name="C" value="0x020"/></attr></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="ProgressWheel"><attr format="boolean" name="matProg_progressIndeterminate"/><attr format="color" name="matProg_barColor"/><attr format="color" name="matProg_rimColor"/><attr format="dimension" name="matProg_rimWidth"/><attr format="float" name="matProg_spinSpeed"/><attr format="integer" name="matProg_barSpinCycleTime"/><attr format="dimension" name="matProg_circleRadius"/><attr format="boolean" name="matProg_fillRadius"/><attr format="dimension" name="matProg_barWidth"/><attr format="boolean" name="matProg_linearProgress"/></declare-styleable>
     <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
     <declare-styleable name="RCCircleFlowIndicator"><attr format="color" name="RCActiveColor"/><attr format="color" name="RCInactiveColor"/><attr format="dimension" name="RCRadius"/><attr format="dimension" name="RCSpacing"/><attr format="boolean" name="RCCentered"/><attr format="integer" name="RCFadeOut"/><attr name="RCInactiveType"><flag name="RCStroke" value="0"/><flag name="RCFill" value="1"/></attr><attr name="RCActiveType"><flag name="RCStroke" value="0"/><flag name="RCFill" value="1"/></attr><attr format="boolean" name="RCSnap"/></declare-styleable>
     <declare-styleable name="RCViewFlow"><attr format="integer" name="RCSideBuffer"/></declare-styleable>
     <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="Rotate3dAnimation"><attr format="enum" name="rollType"><enum name="x" value="0"/><enum name="y" value="1"/><enum name="z" value="2"/></attr><attr format="float" name="fromDeg"/><attr format="float" name="toDeg"/><attr format="fraction" name="pivotX"/><attr format="fraction" name="pivotY"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
     <declare-styleable name="barView"><attr name="leftType"/><attr name="rightType"/><attr name="centerType"/><attr name="leftTextColor"/><attr name="leftTextSize"/><attr name="leftText"/><attr name="leftTextPadding"/><attr name="leftTextPaddingLeft"/><attr name="leftTextPaddingRight"/><attr name="leftTextPaddingTop"/><attr name="leftTextPaddingBottom"/><attr name="leftImageSource"/><attr name="leftImagePadding"/><attr name="leftImagePaddingLeft"/><attr name="leftImagePaddingRight"/><attr name="leftImagePaddingTop"/><attr name="leftImagePaddingBottom"/><attr name="leftButtonText"/><attr name="leftButtonTextColor"/><attr name="leftButtonTextSize"/><attr name="leftButtonBackground"/><attr name="leftButtonPadding"/><attr name="leftButtonPaddingLeft"/><attr name="leftButtonPaddingRight"/><attr name="leftButtonPaddingTop"/><attr name="leftButtonPaddingBottom"/><attr name="leftButtonMargIn"/><attr name="leftButtonMargInLeft"/><attr name="leftButtonMargInRight"/><attr name="leftButtonMargInTop"/><attr name="leftButtonMargInBottom"/><attr name="rightTextColor"/><attr name="rightTextSize"/><attr name="rightText"/><attr name="rightTextPadding"/><attr name="rightTextPaddingLeft"/><attr name="rightTextPaddingRight"/><attr name="rightTextPaddingTop"/><attr name="rightTextPaddingBottom"/><attr name="rightImageSource"/><attr name="rightImagePadding"/><attr name="rightImagePaddingLeft"/><attr name="rightImagePaddingRight"/><attr name="rightImagePaddingTop"/><attr name="rightImagePaddingBottom"/><attr name="rightButtonText"/><attr name="rightButtonTextColor"/><attr name="rightButtonTextSize"/><attr name="rightButtonBackground"/><attr name="rightButtonPadding"/><attr name="rightButtonPaddingLeft"/><attr name="rightButtonPaddingRight"/><attr name="rightButtonPaddingTop"/><attr name="rightButtonPaddingBottom"/><attr name="rightButtonMargIn"/><attr name="rightButtonMargInLeft"/><attr name="rightButtonMargInRight"/><attr name="rightButtonMargInTop"/><attr name="rightButtonMargInBottom"/><attr name="centerTextColor"/><attr name="centerTextSize"/><attr name="centerText"/><attr name="centerTextPadding"/><attr name="centerTextPaddingLeft"/><attr name="centerTextPaddingRight"/><attr name="centerTextPaddingTop"/><attr name="centerTextPaddingBottom"/><attr name="centerImageSource"/><attr name="centerImagePadding"/><attr name="centerImagePaddingLeft"/><attr name="centerImagePaddingRight"/><attr name="centerImagePaddingTop"/><attr name="centerImagePaddingBottom"/><attr name="centerButtonText"/><attr name="centerButtonTextColor"/><attr name="centerButtonTextSize"/><attr name="centerButtonBackground"/><attr name="centerButtonPadding"/><attr name="centerButtonPaddingLeft"/><attr name="centerButtonPaddingRight"/><attr name="centerButtonPaddingTop"/></declare-styleable>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_main_ChangeColorIconWithText_layout_width">0dp</dimen>
@@ -445,6 +476,19 @@
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
     <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
     <dimen name="header_footer_internal_padding">20dp</dimen>
     <dimen name="header_footer_left_right_padding">25dp</dimen>
     <dimen name="header_footer_top_bottom_padding">10dp</dimen>
@@ -513,6 +557,11 @@
     <item name="rc_warning" type="id"/>
     <item name="scrollview" type="id"/>
     <item name="webview" type="id"/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
     <integer name="rc_audio_encoding_bit_rate">7950</integer>
     <integer name="rc_chatroom_first_pull_message_count">10</integer>
     <integer name="rc_custom_service_evaluation_interval">60</integer>
@@ -981,6 +1030,31 @@ function login(form){
         <item name="android:windowNoTitle">false</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
     </style>
     <style name="alert_dialog" parent="android:Theme.Dialog">
         <item name="android:windowIsFloating">true</item>
