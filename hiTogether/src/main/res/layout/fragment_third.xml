@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/sl_guide"
-    android:paddingTop="5dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -24,9 +23,9 @@
             android:layout_gravity="center_horizontal|top">
 
             <ImageView
-                android:scaleType="centerCrop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:scaleType="centerCrop"
                 android:src="@drawable/u13" />
         </com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader>
     </FrameLayout>

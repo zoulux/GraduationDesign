@@ -63,7 +63,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
             init();
         }
 
-
+        ButterKnife.bind(this, rootContainer);
         return rootContainer;
     }
 
@@ -77,15 +77,21 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
         adapter = new DeatinationAdapter();
         rvDestination.setAdapter(adapter);
 
-        postAsync("getAllService", null);
-        postAsync("getRoundImg", null);
-
 
         infiniteAdapter = new InfiniteAdapter();
         viewPager.setAdapter(infiniteAdapter);
         viewPager.setAutoScrollTime(5000);
 
         indicator.setViewPager(viewPager);
+
+        getData();
+    }
+
+    private void getData() {
+
+            srDestination.setRefreshing(true);
+            postAsync("getAllService", null);
+            postAsync("getRoundImg", null);
     }
 
 
@@ -173,6 +179,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
 
     @Override
     public boolean handleMessage(Message msg) {
+        srDestination.setRefreshing(false);
         switch (msg.what) {
             case GET_SUCCESS:
                 if (msg.arg1 == 1) {
@@ -226,7 +233,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
 
     @Override
     public void onRefresh() {
-
+        getData();
     }
 
     @Override

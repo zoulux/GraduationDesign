@@ -14,12 +14,10 @@ import android.view.ViewGroup;
 import com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.handmark.pulltorefresh.library.PullToRefreshGridView;
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.ShowSceneDetailsActivity;
 import com.lyy.hitogether.adapter.GuideAdapter;
 import com.lyy.hitogether.bean.HotScenic;
-import com.lyy.hitogether.mydialog.SweetAlertDialog;
 
 import org.simple.eventbus.EventBus;
 import org.simple.eventbus.Subscriber;
@@ -30,17 +28,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class ThirdFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
-    // private PullToRefreshGridView mGridView;
-    // private ThirdFragmentAdapter thirdFragmentAdapter;
-
-    private boolean isPrepared;
-    // private List<Service> list;
-    private SweetAlertDialog sweetAlertDialog;
-
-    private List<HotScenic> hotScenicList;
-
-    private PullToRefreshGridView gridView;
-
 
     private View rootContainer;
 
@@ -68,7 +55,7 @@ public class ThirdFragment extends BaseFragment implements SwipeRefreshLayout.On
             init();
         }
 
-
+        ButterKnife.bind(this, rootContainer);
         return rootContainer;
     }
 
@@ -77,21 +64,18 @@ public class ThirdFragment extends BaseFragment implements SwipeRefreshLayout.On
         swipeRefreshLayout.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light,
                 android.R.color.holo_orange_light, android.R.color.holo_red_light);
 
-        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 2, GridLayoutManager.VERTICAL, false));
+        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3, GridLayoutManager.VERTICAL, false));
         recyclerViewHeader.attachTo(recyclerView, true);
 
         adapter = new GuideAdapter();
         recyclerView.setAdapter(adapter);
 
-        sweetAlertDialog = new SweetAlertDialog(getActivity(), 5);
-        sweetAlertDialog.setTitleText("加载中...");
-        sweetAlertDialog.showCancelButton(false);
 
         getData();
     }
 
     private void getData() {
-        sweetAlertDialog.show();
+        swipeRefreshLayout.setRefreshing(true);
 
         postAsync("getAllHotScenic", null);
     }
@@ -134,26 +118,17 @@ public class ThirdFragment extends BaseFragment implements SwipeRefreshLayout.On
     @Override
     protected void lazyLoad() {
 
-        if (!isPrepared || !isVisible) {
-            Log.i("lazyLoad1", isPrepared + ":" + isPrepared);
-            return;
-        }
-
-        Log.i("lazyLoad2", isPrepared + ":" + isPrepared);
-
     }
 
     @Override
     public void onPause() {
         isVisible = false;
-        isPrepared = false;
-        sweetAlertDialog.dismiss();
         super.onPause();
     }
 
     @Override
     public boolean handleMessage(Message msg) {
-        sweetAlertDialog.dismiss();
+        swipeRefreshLayout.setRefreshing(false);
         switch (msg.what) {
             case GET_SUCCESS:
                 handleSuccess(msg.obj.toString());
@@ -176,7 +151,7 @@ public class ThirdFragment extends BaseFragment implements SwipeRefreshLayout.On
 
     @Override
     public void onRefresh() {
-
+        getData();
     }
 
 
