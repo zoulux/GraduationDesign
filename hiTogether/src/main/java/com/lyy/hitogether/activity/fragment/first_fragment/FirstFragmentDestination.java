@@ -24,7 +24,6 @@ import com.lyy.hitogether.util.ToastUtil;
 import com.zanlabs.widget.infiniteviewpager.InfiniteViewPager;
 import com.zanlabs.widget.infiniteviewpager.indicator.CirclePageIndicator;
 
-import java.util.Collections;
 import java.util.List;
 
 import butterknife.Bind;
@@ -72,6 +71,8 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
         rvDestination.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
         headerDestination.attachTo(rvDestination, true);
         srDestination.setOnRefreshListener(this);
+        srDestination.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light,
+                android.R.color.holo_orange_light, android.R.color.holo_red_light);
 
         adapter = new DeatinationAdapter();
         rvDestination.setAdapter(adapter);
@@ -80,7 +81,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
         postAsync("getRoundImg", null);
 
 
-        infiniteAdapter = new InfiniteAdapter(getContext());
+        infiniteAdapter = new InfiniteAdapter();
         viewPager.setAdapter(infiniteAdapter);
         viewPager.setAutoScrollTime(5000);
 
@@ -195,7 +196,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
         Gson gson = new Gson();
         List<RoundImg> list = gson.fromJson(json, new TypeToken<List<RoundImg>>() {
         }.getType());
-        Collections.reverse(list);
+
         Log.i("TAG", list.toString());
         //  initEvent();
         infiniteAdapter.setData(list);

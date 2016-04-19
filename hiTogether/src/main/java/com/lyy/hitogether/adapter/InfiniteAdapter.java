@@ -1,6 +1,5 @@
 package com.lyy.hitogether.adapter;
 
-import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -17,18 +16,14 @@ import java.util.List;
  */
 public class InfiniteAdapter extends InfinitePagerAdapter {
 
-    private Context context;
     private List<RoundImg> data = Collections.emptyList();
-
-    public InfiniteAdapter(Context context) {
-        this.context = context;
-    }
 
     @Override
     public View getView(int position, View convertView, ViewGroup container) {
-        ImageView imageView = new ImageView(context);
+
+        ImageView imageView = new ImageView(container.getContext());
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        Glide.with(context).load(data.get(position).img).into(imageView);
+        Glide.with(container.getContext()).load(data.get(position).img).into(imageView);
         return imageView;
     }
 

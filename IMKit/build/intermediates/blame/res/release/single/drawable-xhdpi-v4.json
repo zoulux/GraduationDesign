@@ -4,6 +4,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_radio_button_on.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_receive_voice_two.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_receive_voice_two.png"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u23f0.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u23f0.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_keyboard_selected.png",
@@ -44,12 +52,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ed_pub_service_search_normal.9.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_volume_four.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_volume_four.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_wraning.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_volume_wraning.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_volume_four.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_volume_four.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_4.png",
@@ -76,20 +84,32 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f605.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f339.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f339.png"
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f48b.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f48b.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_call_answer.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_call_answer.png"
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f339.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f339.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_white.9.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_white.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_call_answer.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_call_answer.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_radio_button_off.png",
@@ -108,6 +128,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_no_hover.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u270f.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u270f.png"
     },
@@ -122,6 +146,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f484.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f484.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f3b2.png",
@@ -176,6 +204,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f4a3.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f60c.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f60c.png"
     },
@@ -206,6 +238,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u2744.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u2744.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_voice_unread.png",
@@ -242,6 +278,18 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_default_discussion_portrait.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_default_discussion_portrait.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_public_service_menu_bg.9.png",
@@ -288,12 +336,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_sound_off_disable.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_bg_text_hover.9.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_bg_text_hover.9.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f631.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f631.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_bg_text_hover.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_bg_text_hover.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_checkbox_pressed.png",
@@ -308,12 +356,12 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_default_group_portrait.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f44d.png",
-        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f44d.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_add_people.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_add_people.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f44d.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f44d.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_checkbox_normal.png",
@@ -326,6 +374,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f600.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f600.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_btn_voice_hover.9.png",
@@ -348,8 +400,16 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_bar_logo.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_hands_free_down.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_hands_free_down.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_voice_selected.png",
@@ -408,12 +468,24 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_receive_voice_one.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u263a.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u263a.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f3a4.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f3a4.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f434.png",
@@ -422,6 +494,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_smiley_normal.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_smiley_normal.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_progress_sending_style.xml",
@@ -436,12 +512,20 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f611.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_def_coversation_portrait.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_def_coversation_portrait.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f356.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f356.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f4b0.png",
@@ -474,6 +558,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_volume_one.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_volume_one.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_voice_receive_play1.png",
@@ -516,6 +604,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f384.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f601.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f601.png"
     },
@@ -548,6 +640,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f52b.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_3.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_volume_3.png"
     },
@@ -570,6 +666,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f60f.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f60f.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f606.png",
@@ -620,6 +720,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_icon_admin.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_default_portrait.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_default_portrait.png"
     },
@@ -664,6 +768,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f004.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f4a2.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f4a2.png"
     },
@@ -672,12 +780,24 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f62e.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f618.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f618.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f48a.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f48a.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u2615.png",
@@ -692,8 +812,16 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u2b50.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_setting_friends_add.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_setting_friends_add.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f4a9.png",
@@ -722,6 +850,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_location_item_default.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_location_item_default.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_5.png",
@@ -780,6 +912,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f377.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_8.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_volume_8.png"
     },
@@ -806,6 +942,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u270b.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u270b.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_volume_three.png",
@@ -844,8 +984,16 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f613.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f632.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f632.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_right.9.png",
@@ -920,6 +1068,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_hands_free.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_bg_text_normal.9.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_bg_text_normal.9.png"
     },
@@ -934,6 +1086,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_call_over.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_call_over.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f44a.png",
@@ -968,6 +1124,10 @@
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_precheckbox_normal.png"
     },
     {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_call_over_down.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_call_over_down.png"
     },
@@ -982,6 +1142,10 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_portrait_voip.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_portrait_voip.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f47f.png",
@@ -1002,6 +1166,14 @@
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f381.png",
         "source": "D:\\AS\\New\\HiTogether\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f381.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_call_refuse.png",
