@@ -17,7 +17,7 @@ import android.view.View;
 
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.MainActivity;
-import com.lyy.hitogether.datebase.UserInfosDao;
+
 import com.lyy.hitogether.provider.ContactsProvider;
 import com.lyy.hitogether.provider.NewCameraInputProvider;
 import com.lyy.hitogether.provider.PhotoCollectionsProvider;
@@ -79,7 +79,7 @@ public final class RongCloudEvent implements
 	private static RongCloudEvent mRongCloudInstance;
 
 	private Context mContext;
-	private UserInfosDao mUserInfosDao;
+
 
 	private Handler mHandler;
 

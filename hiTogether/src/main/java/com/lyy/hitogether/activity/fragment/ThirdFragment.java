@@ -6,6 +6,7 @@ import android.os.Message;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +19,7 @@ import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.ShowSceneDetailsActivity;
 import com.lyy.hitogether.adapter.GuideAdapter;
 import com.lyy.hitogether.bean.HotScenic;
+import com.lyy.hitogether.util.DensityUtils;
 
 import org.simple.eventbus.EventBus;
 import org.simple.eventbus.Subscriber;
@@ -64,7 +66,9 @@ public class ThirdFragment extends BaseFragment implements SwipeRefreshLayout.On
         swipeRefreshLayout.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light,
                 android.R.color.holo_orange_light, android.R.color.holo_red_light);
 
-        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3, GridLayoutManager.VERTICAL, false));
+        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL));
+//        recyclerView.addItemDecoration(new SpacesItemDecoration(5));
+       recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3, GridLayoutManager.VERTICAL, false));
         recyclerViewHeader.attachTo(recyclerView, true);
 
         adapter = new GuideAdapter();
@@ -75,7 +79,11 @@ public class ThirdFragment extends BaseFragment implements SwipeRefreshLayout.On
     }
 
     private void getData() {
-        swipeRefreshLayout.setRefreshing(true);
+
+        if (!swipeRefreshLayout.isRefreshing()){
+            swipeRefreshLayout.setProgressViewOffset(false, 0, DensityUtils.dp2px(24));
+            swipeRefreshLayout.setRefreshing(true);
+        }
 
         postAsync("getAllHotScenic", null);
     }

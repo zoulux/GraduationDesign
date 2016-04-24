@@ -14,6 +14,7 @@ import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.bean.MyUser;
+import com.lyy.hitogether.global.App;
 import com.lyy.hitogether.mydialog.SweetAlertDialog;
 import com.lyy.hitogether.util.ConnectRong;
 import com.lyy.hitogether.util.ConnectRong.MyConnectListener;
@@ -182,6 +183,7 @@ public class LoginActivity extends BaseActivity {
             BmobUserManager.getInstance(LoginActivity.this)
                     .bindInstallationForRegister(user.getUsername());
 
+
             BmobUserManager.getInstance(LoginActivity.this).login(user,
                     new SaveListener() {
 
@@ -189,6 +191,7 @@ public class LoginActivity extends BaseActivity {
                         public void onSuccess() {
                             Log.i("LoginActivity", "2");
                             mHandler.sendEmptyMessage(HANDLE_WHAT);
+                            App.getInsatnce().setCurrentUser( BmobUserManager.getInstance(LoginActivity.this).getCurrentUser(MyUser.class));
 
                         }
 

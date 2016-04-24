@@ -26,6 +26,16 @@ public class Demand extends BmobObject {
 	Integer zan; //
 	MyUser user;
 
+	List<String> zanId;  //点赞的id
+
+	public List<String> getZanId() {
+		return zanId;
+	}
+
+	public void setZanId(List<String> zanId) {
+		this.zanId = zanId;
+	}
+
 	public Integer getZan() {
 		return zan;
 	}

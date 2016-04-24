@@ -18,15 +18,22 @@ import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.fragment.BaseFragment;
 import com.lyy.hitogether.adapter.FriendAdapter;
 import com.lyy.hitogether.bean.Demand;
+import com.lyy.hitogether.global.App;
+import com.lyy.hitogether.util.ToastUtil;
+
+import org.simple.eventbus.EventBus;
+import org.simple.eventbus.Subscriber;
 
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import cn.bmob.v3.listener.UpdateListener;
 
 public class FirstFragmentOfFriend extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
 
     private static final String TAG = "FirstFragmentOfFriend";
+    public static final String EVENT_DEMAND = "EVENT_DEMAND";
     private View rootContainer;
     @Bind(R.id.rv_friend)
     RecyclerView recyclerView;
@@ -52,6 +59,7 @@ public class FirstFragmentOfFriend extends BaseFragment implements SwipeRefreshL
                     android.R.color.holo_orange_light, android.R.color.holo_red_light);
         }
         ButterKnife.bind(this, rootContainer);
+        EventBus.getDefault().register(this);
         return rootContainer;
 
     }
@@ -59,7 +67,7 @@ public class FirstFragmentOfFriend extends BaseFragment implements SwipeRefreshL
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-      //  swipeRefreshLayout.setRefreshing(true);
+        //  swipeRefreshLayout.setRefreshing(true);
         postAsync("getDemand", null);
     }
 
@@ -89,5 +97,39 @@ public class FirstFragmentOfFriend extends BaseFragment implements SwipeRefreshL
     @Override
     public void onRefresh() {
         postAsync("getDemand", null);
+    }
+
+
+    @Subscriber(tag = EVENT_DEMAND)
+    public void update(final int pos) {
+        Demand demand = adapter.getData().get(pos);
+
+        List<String> totalId = demand.getZanId();
+        String currentId = App.getInsatnce().getCurrentUser().getObjectId();
+        if (totalId == null) {
+            return;
+        }
+        if (totalId.contains(currentId)) {
+            ToastUtil.message("您已经为他点过赞了");
+        } else {
+            demand.setZan(demand.getZan() + 1);
+            totalId.add(currentId);
+
+            demand.update(getContext(), demand.getObjectId(), new UpdateListener() {
+                @Override
+                public void onSuccess() {
+                    adapter.notifyItemChanged(pos);
+                }
+
+                @Override
+                public void onFailure(int i, String s) {
+
+                }
+            });
+
+
+        }
+
+
     }
 }

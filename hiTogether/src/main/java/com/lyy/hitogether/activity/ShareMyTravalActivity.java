@@ -1,8 +1,5 @@
 package com.lyy.hitogether.activity;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +16,9 @@ import com.lyy.hitogether.util.DensityUtils;
 import com.lyy.hitogether.view.CustomTitleBarView;
 import com.lyy.hitogether.view.CustomTitleBarView.onLeftBarViewClickListener;
 import com.lyy.hitogether.view.CustomTitleBarView.onRightBarViewClickListener;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ShareMyTravalActivity extends BaseActivity {
 	// ���������
@@ -89,7 +89,7 @@ public class ShareMyTravalActivity extends BaseActivity {
 			getPicPath = data.getStringArrayListExtra("path");
 			getPicPath.add("");
 			picSize = getPicPath.size();
-			int Hposition = DensityUtils.dp2px(ShareMyTravalActivity.this, 100)
+			int Hposition = DensityUtils.dp2px(100)
 					* picSize / 3;
 			adapter = new ShareMyaTravalAdapter(ShareMyTravalActivity.this,
 					getPicPath);

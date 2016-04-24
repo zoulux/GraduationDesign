@@ -20,6 +20,7 @@ import com.lyy.hitogether.adapter.InfiniteAdapter;
 import com.lyy.hitogether.bean.RoundImg;
 import com.lyy.hitogether.bean.Service;
 import com.lyy.hitogether.global.App;
+import com.lyy.hitogether.util.DensityUtils;
 import com.lyy.hitogether.util.ToastUtil;
 import com.zanlabs.widget.infiniteviewpager.InfiniteViewPager;
 import com.zanlabs.widget.infiniteviewpager.indicator.CirclePageIndicator;
@@ -88,10 +89,13 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
     }
 
     private void getData() {
-
+        if (!srDestination.isRefreshing()) {
+            srDestination.setProgressViewOffset(false, 0, DensityUtils.dp2px(24));
             srDestination.setRefreshing(true);
-            postAsync("getAllService", null);
-            postAsync("getRoundImg", null);
+        }
+
+        postAsync("getAllService", null);
+        postAsync("getRoundImg", null);
     }
 
 
@@ -179,7 +183,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
 
     @Override
     public boolean handleMessage(Message msg) {
-        srDestination.setRefreshing(false);
+
         switch (msg.what) {
             case GET_SUCCESS:
                 if (msg.arg1 == 1) {
@@ -195,7 +199,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
             default:
                 break;
         }
-
+        srDestination.setRefreshing(false);
         return false;
     }
 
@@ -207,7 +211,8 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
         Log.i("TAG", list.toString());
         //  initEvent();
         infiniteAdapter.setData(list);
-        viewPager.startAutoScroll();
+        if (viewPager != null)
+            viewPager.startAutoScroll();
     }
 
     private void handleFaild(String string) {

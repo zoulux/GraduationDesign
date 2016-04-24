@@ -3,6 +3,8 @@ package com.lyy.hitogether.util;
 import android.content.Context;
 import android.util.TypedValue;
 
+import com.lyy.hitogether.global.App;
+
 /**
  * ���õ�λת���ĸ�����
  * 
@@ -22,9 +24,10 @@ public class DensityUtils {
 	 * @param val
 	 * @return
 	 */
-	public static int dp2px(Context context, float dpVal) {
+	public static int dp2px( float dpVal) {
+
 		return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
-				dpVal, context.getResources().getDisplayMetrics());
+				dpVal, App.getInsatnce().getResources().getDisplayMetrics());
 	}
 
 	/**

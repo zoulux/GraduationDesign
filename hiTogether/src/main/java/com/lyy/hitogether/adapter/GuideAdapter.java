@@ -15,6 +15,7 @@ import org.simple.eventbus.EventBus;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -24,6 +25,7 @@ import butterknife.ButterKnife;
  */
 public class GuideAdapter extends RecyclerView.Adapter<GuideAdapter.GuideViewHolder> {
     private List<HotScenic> data = Collections.emptyList();
+    private static Random random = new Random();
 
     @Override
     public GuideViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -47,7 +49,7 @@ public class GuideAdapter extends RecyclerView.Adapter<GuideAdapter.GuideViewHol
         notifyDataSetChanged();
     }
 
-    static class GuideViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    class GuideViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         @Bind(R.id.image)
         ImageView pic;
         @Bind(R.id.title)

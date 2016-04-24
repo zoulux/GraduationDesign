@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.bean.Demand;
+import com.lyy.hitogether.global.App;
 import com.lyy.hitogether.mydialog.SweetAlertDialog;
 import com.lyy.hitogether.mydialog.SweetAlertDialog.OnSweetClickListener;
 import com.lyy.hitogether.view.SwitchDesPopUpWindow;
@@ -26,6 +27,7 @@ import com.lyy.hitogether.view.SwitchPeoplePopUpWindow.onCorrectClickListener3;
 import com.lyy.hitogether.view.SwitchTimePopUpWindow;
 import com.lyy.hitogether.view.SwitchTimePopUpWindow.onCorrectClickListener2;
 
+import java.util.Collections;
 import java.util.Date;
 
 import cn.bmob.im.BmobUserManager;
@@ -153,6 +155,8 @@ public class SecondFragment extends BaseFragment implements OnClickListener {
         d.setUserId(BmobUserManager.getInstance(getActivity())
                 .getCurrentUserObjectId());
         d.setZan(0);
+        d.setZanId(Collections.EMPTY_LIST);
+        d.setUser(App.getInsatnce().getCurrentUser());
 
         d.save(getActivity(), new SaveListener() {
 

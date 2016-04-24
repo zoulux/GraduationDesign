@@ -1,8 +1,5 @@
 package com.lyy.hitogether.view;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.util.AttributeSet;
@@ -11,6 +8,9 @@ import android.view.ViewGroup;
 
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.util.DensityUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 
@@ -47,8 +47,8 @@ public class MyGuideOrTravalersLayout extends ViewGroup {
 	public void addMyView(int count) {
 		for (int i = 0; i < count; i++) {
 			CircleImageView img = new CircleImageView(context);
-			LayoutParams lp = new LayoutParams((int) DensityUtils.dp2px(context, 46),
-					(int) DensityUtils.dp2px(context, 46));
+			LayoutParams lp = new LayoutParams((int) DensityUtils.dp2px( 46),
+					(int) DensityUtils.dp2px( 46));
 			
 			img.setImageResource(R.drawable.girl);
 			img.setBorderColor(Color.BLACK);
