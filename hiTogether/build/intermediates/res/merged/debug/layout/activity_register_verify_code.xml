@@ -7,6 +7,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -15,6 +16,7 @@
         android:textColor="@android:color/holo_blue_dark" />
 
     <TextView
+        android:textSize="20sp"
         android:id="@+id/id_tv_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,6 +25,7 @@
 
 
     <EditText
+        android:textSize="20sp"
         android:id="@+id/id_et_verify_code"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -30,9 +33,11 @@
         android:background="@android:color/white"
         android:gravity="center"
         android:hint="验证码"
-        android:paddingLeft="20dp" />
+ />
 
     <Button
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
         android:id="@+id/id_bt_verify"

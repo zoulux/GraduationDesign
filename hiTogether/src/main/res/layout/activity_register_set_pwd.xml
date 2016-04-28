@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:text="您的账号:"
             android:textColor="@android:color/holo_blue_light"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/id_tv_number"
@@ -24,8 +24,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:text="12345678901"
-            android:textColor="@android:color/holo_blue_light"
-            android:textSize="18sp" />
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -35,7 +35,8 @@
         android:orientation="vertical" >
 
         <TextView
-            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="设置密码:"
@@ -43,6 +44,7 @@
           />
 
         <EditText
+            android:textSize="20sp"
             android:paddingLeft="15dp"
             android:background="@android:color/white"
             android:id="@+id/id_et_pwd"
@@ -55,6 +57,7 @@
         />
 
         <EditText
+
             android:paddingLeft="15dp"
             android:layout_marginTop="2px"
             android:background="@android:color/white"
@@ -65,9 +68,10 @@
             android:password="true"
             android:singleLine="true"
             android:textColor="@android:color/holo_blue_light"
-            android:textSize="18dp" />
+            android:textSize="20sp" />
 
         <Button
+            android:textSize="20sp"
             android:textColor="@android:color/white"
             android:layout_marginTop="30dp"
             android:layout_marginRight="15dp"

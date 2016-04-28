@@ -112,7 +112,8 @@ public class RegisterActivityVerifyCode extends BaseActivity {
                     RegisterActivitySetPwd.class);
             i.putExtra(RegisterActivityGetNumber.PHONE_NUMBER, phone);
             startActivity(i);
-            finish();
+            sweetAlertDialog.dismiss();
+            RegisterActivityVerifyCode.this.finish();
         }
 
     }
@@ -122,6 +123,7 @@ public class RegisterActivityVerifyCode extends BaseActivity {
         @Override
         public void onClick(SweetAlertDialog sweetAlertDialog) {
             EventBus.getDefault().post(1, RegisterActivityGetNumber.EVENT_COUNTDOWN);
+            sweetAlertDialog.dismiss();
             RegisterActivityVerifyCode.this.finish();
         }
     }

@@ -1,6 +1,5 @@
 package com.lyy.hitogether.activity;
 
-import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -14,6 +13,8 @@ import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.bean.MyUser;
 import com.lyy.hitogether.mydialog.SweetAlertDialog;
+
+import org.simple.eventbus.EventBus;
 
 import cn.bmob.v3.BmobInstallation;
 import cn.bmob.v3.listener.SaveListener;
@@ -96,20 +97,19 @@ public class RegisterActivitySetPwd extends BaseActivity {
                 // getToken(num);
 
                 mDialog.dismiss();
-
-                Intent i = new Intent(RegisterActivitySetPwd.this,
-                        LoginActivity.class);
-                // i.setAction(Intent.)
-                startActivity(i);
-
+                RegisterActivitySetPwd.this.finish();
+                EventBus.getDefault().post(0, RegisterActivityGetNumber.EVENT_CLOSE);
             }
 
             @Override
             public void onFailure(int code, String err) {
                 mDialog.changeAlertType(SweetAlertDialog.ERROR_TYPE);
+                if (code == 202) {
+                    mDialog.setTitleText("账号已存在");
+                } else {
+                    mDialog.setTitleText( err);
+                }
 
-                mDialog.setTitleText("code:" + code + "   err:" + err);
-                showToast("code:" + code + "   err:" + err);
 
             }
         });
@@ -125,7 +125,11 @@ public class RegisterActivitySetPwd extends BaseActivity {
         if (TextUtils.isEmpty(getText(pwd))
                 || TextUtils.isEmpty(getText(pwdAgain))) {
             showToast("请填写完整");
+            return false;
+        }
 
+        if (getText(pwd).length() < 6) {
+            showToast("密码长度不少于6位");
             return false;
         }
 

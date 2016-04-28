@@ -24,6 +24,7 @@ import cn.bmob.v3.listener.RequestSMSCodeListener;
 
 public class RegisterActivityGetNumber extends BaseActivity {
     public static final String EVENT_COUNTDOWN = "EVENT_COUNTDOWN";
+    public static final String EVENT_CLOSE = "EVENT_CLOSE";
 
     @ViewInject(R.id.id_et_phone)
     private EditText phoneNumber;
@@ -116,6 +117,11 @@ public class RegisterActivityGetNumber extends BaseActivity {
         i.putExtra(PHONE_NUMBER, phoneNumber.getText()
                 .toString());
         startActivity(i);
+    }
+
+    @Subscriber(tag = EVENT_CLOSE)
+    public void closeThis(int i) {
+        finish();
     }
 
 }
