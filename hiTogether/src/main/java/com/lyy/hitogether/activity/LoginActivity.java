@@ -1,5 +1,7 @@
 package com.lyy.hitogether.activity;
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -8,9 +10,13 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.AccelerateInterpolator;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 
 import com.lidroid.xutils.ViewUtils;
+import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.lyy.hitogether.R;
 import com.lyy.hitogether.bean.MyUser;
@@ -20,9 +26,6 @@ import com.lyy.hitogether.util.ConnectRong;
 import com.lyy.hitogether.util.ConnectRong.MyConnectListener;
 import com.lyy.hitogether.util.NetUtils;
 import com.lyy.hitogether.util.ToastUtil;
-import com.lyy.hitogether.view.CircleImageView;
-import com.lyy.hitogether.view.MyLoginView;
-import com.lyy.hitogether.view.MyLoginView.onLoginListener;
 
 import java.util.List;
 
@@ -32,8 +35,14 @@ import io.rong.imlib.model.UserInfo;
 
 public class LoginActivity extends BaseActivity {
 
-    private EditText mEditTextUserName;
-    private EditText mEditTextPwd;
+    private EditText etName;
+    private EditText etPwd;
+
+    @ViewInject(R.id.id_loginBt)
+    Button btLogin;
+
+    @ViewInject(R.id.ll_action)
+    LinearLayout llAction;
     //
     // final ClearActivity username = (ClearActivity)
     // findViewById(R.id.id_userName);
@@ -42,9 +51,7 @@ public class LoginActivity extends BaseActivity {
 
     SweetAlertDialog sweetAlertDialog = null;
     // Բ��ͷ��
-    private CircleImageView userAvarterImg;
     // ��¼����
-    private MyLoginView myLoginView;
     // 登录按钮只能点一次，否走如果你连续速度很快的点登录按钮的话，dialog将会被连续触发，也就会产生很多个MainActivity
     //  private boolean isFirstClick = true;
 
@@ -54,7 +61,7 @@ public class LoginActivity extends BaseActivity {
 
         // �����ޱ�����
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_login2);
         ViewUtils.inject(this);
         // ͸��״̬��
         getWindow()
@@ -63,20 +70,30 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void init() {
-        initId();
         initView();
         initEvent();
+        initAction();
+    }
+
+    private void initAction() {
+        ObjectAnimator alphaAnimator = ObjectAnimator.ofFloat(llAction, "alpha", 0.5f, 1.0f);
+        ObjectAnimator translationAnimator = ObjectAnimator.ofFloat(llAction, "translationY", 0, -500);
+
+        AnimatorSet animatorSet = new AnimatorSet();
+        animatorSet.playTogether(alphaAnimator, translationAnimator);
+        animatorSet.setInterpolator(new AccelerateInterpolator());
+        animatorSet.setDuration(800);
+        animatorSet.start();
     }
 
     private void initEvent() {
-
-        myLoginView.setOnLoginListener(new onLoginListener() {
-
+        btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 login();
             }
         });
+
 
     }
 
@@ -110,7 +127,7 @@ public class LoginActivity extends BaseActivity {
                             @Override
                             public void onFaild(String str) {
                                 sweetAlertDialog.dismiss();
-                                ShowToast("连接失败");
+                                showToast("连接失败");
 
                             }
                         });
@@ -176,37 +193,34 @@ public class LoginActivity extends BaseActivity {
             Log.i("LoginActivity", "1");
             sweetAlertDialog.show();
             MyUser user = new MyUser();
-            user.setUsername(mEditTextUserName.getText().toString());
-            user.setPassword(mEditTextPwd.getText().toString());
-
-            // Log.i("Installation", BmobInstallation.getInstallationId(this));
+            user.setUsername(etName.getText().toString());
+            user.setPassword(etPwd.getText().toString());
             BmobUserManager.getInstance(LoginActivity.this)
                     .bindInstallationForRegister(user.getUsername());
-
 
             BmobUserManager.getInstance(LoginActivity.this).login(user,
                     new SaveListener() {
 
                         @Override
                         public void onSuccess() {
-                            Log.i("LoginActivity", "2");
                             mHandler.sendEmptyMessage(HANDLE_WHAT);
-                            App.getInsatnce().setCurrentUser( BmobUserManager.getInstance(LoginActivity.this).getCurrentUser(MyUser.class));
-
+                            App.getInsatnce().setCurrentUser(
+                                    BmobUserManager.getInstance(LoginActivity.this)
+                                            .getCurrentUser(MyUser.class));
                         }
 
                         @Override
                         public void onFailure(int arg0, String arg1) {
                             Log.i("LoginActivity", "3");
                             sweetAlertDialog.dismiss();
-                            ShowToast("账号或密码有误");
+                            showToast("账号或密码有误");
 
                         }
                     });
 
         } else {
             sweetAlertDialog.dismiss();
-            ShowToast("输入有误");
+            showToast("输入有误");
         }
 
     }
@@ -216,8 +230,8 @@ public class LoginActivity extends BaseActivity {
     }
 
     private boolean judge() {
-        if (!TextUtils.isEmpty(mEditTextPwd.getText().toString())
-                && !TextUtils.isEmpty(mEditTextUserName.getText().toString())) {
+        if (!TextUtils.isEmpty(etPwd.getText().toString())
+                && !TextUtils.isEmpty(etName.getText().toString())) {
             return true;
         }
 
@@ -226,25 +240,16 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void initView() {
-        mEditTextUserName = (EditText) findViewById(R.id.id_userName);
-        mEditTextPwd = (EditText) findViewById(R.id.id_userPwd);
+        etName = (EditText) findViewById(R.id.id_userName);
+        etPwd = (EditText) findViewById(R.id.id_userPwd);
 
         sweetAlertDialog = new SweetAlertDialog(LoginActivity.this, 5);
         sweetAlertDialog.setTitleText("正在登陆");
         sweetAlertDialog.showCancelButton(false);
 
-        new Handler().postDelayed(new Runnable() {
-            public void run() {
-                userAvarterImg.setVisibility(View.VISIBLE);
-            }
-        }, 600);
-    }
-
-    private void initId() {
-        userAvarterImg = (CircleImageView) findViewById(R.id.login_user_avarter);
-        myLoginView = (MyLoginView) findViewById(R.id.id_my_login_view);
 
     }
+
 
     @Override
     public void onBackPressed() {
@@ -261,20 +266,6 @@ public class LoginActivity extends BaseActivity {
         Intent intent = new Intent(LoginActivity.this,
                 RegisterActivityGetNumber.class);
         startActivity(intent);
-
-        // HttpUtils.getGroup(LoginActivity.this, "00001",
-        // new MyResultListener<String>() {
-        //
-        // @Override
-        // public void onSuccess(List<String> list) {
-        // Log.i("HttpUtils", list.toString());
-        // }
-        //
-        // @Override
-        // public void onFaild(int code, String err) {
-        //
-        // }
-        // });
     }
 
 }

@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_below="@+id/id_third_fragment_scen_img"
+            android:layout_below="@id/id_third_fragment_scen_img"
             android:layout_marginTop="5dp"
             android:maxLength="18"
             android:text="这是一个好的地方，值得你去。"

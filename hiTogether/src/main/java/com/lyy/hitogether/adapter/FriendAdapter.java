@@ -13,7 +13,6 @@ import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.fragment.first_fragment.FirstFragmentOfFriend;
 import com.lyy.hitogether.bean.Demand;
 import com.lyy.hitogether.bean.MyUser;
-import com.lyy.hitogether.util.ToastUtil;
 
 import org.simple.eventbus.EventBus;
 
@@ -97,7 +96,7 @@ public class FriendAdapter extends RecyclerView.Adapter<FriendAdapter.FriendView
 
         @OnClick(R.id.tv_talk)
         public void talk() {
-            ToastUtil.message("talk");
+            EventBus.getDefault().post(getAdapterPosition(), FirstFragmentOfFriend.EVENT_FRIEND_TALK);
         }
     }
 }

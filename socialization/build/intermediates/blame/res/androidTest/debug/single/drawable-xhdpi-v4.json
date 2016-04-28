@@ -12,12 +12,12 @@
         "source": "D:\\AS\\New\\HiTogether\\socialization\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_social_toolbar_like.png"
     },
     {
-        "merged": "D:\\AS\\New\\HiTogether\\socialization\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_social_cl_empty.png",
-        "source": "D:\\AS\\New\\HiTogether\\socialization\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_social_cl_empty.png"
-    },
-    {
         "merged": "D:\\AS\\New\\HiTogether\\socialization\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_social_toolbar_back.png",
         "source": "D:\\AS\\New\\HiTogether\\socialization\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_social_toolbar_back.png"
+    },
+    {
+        "merged": "D:\\AS\\New\\HiTogether\\socialization\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_social_cl_empty.png",
+        "source": "D:\\AS\\New\\HiTogether\\socialization\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_social_cl_empty.png"
     },
     {
         "merged": "D:\\AS\\New\\HiTogether\\socialization\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_social_toolbar_reply.png",

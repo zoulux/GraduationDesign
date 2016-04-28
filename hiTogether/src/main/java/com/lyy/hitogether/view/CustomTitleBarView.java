@@ -351,7 +351,8 @@ public class CustomTitleBarView extends RelativeLayout {
 	public void setCenterText(String text) {
 		initJavaCenterLayoutParams();
 		centerTextView = new TextView(context);
-
+		centerTextView.setTextColor(Color.WHITE);
+		centerTextView.setTextSize(20);
 		centerTextView.setText(text);
 		addView(centerTextView, lp4);
 

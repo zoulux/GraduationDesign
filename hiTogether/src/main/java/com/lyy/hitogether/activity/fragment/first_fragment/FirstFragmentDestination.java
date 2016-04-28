@@ -1,5 +1,7 @@
 package com.lyy.hitogether.activity.fragment.first_fragment;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Message;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -14,9 +16,11 @@ import com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.lyy.hitogether.R;
+import com.lyy.hitogether.activity.ShowGuideDetailActivity;
 import com.lyy.hitogether.activity.fragment.BaseFragment;
 import com.lyy.hitogether.adapter.DeatinationAdapter;
 import com.lyy.hitogether.adapter.InfiniteAdapter;
+import com.lyy.hitogether.bean.MyUser;
 import com.lyy.hitogether.bean.RoundImg;
 import com.lyy.hitogether.bean.Service;
 import com.lyy.hitogether.global.App;
@@ -24,6 +28,9 @@ import com.lyy.hitogether.util.DensityUtils;
 import com.lyy.hitogether.util.ToastUtil;
 import com.zanlabs.widget.infiniteviewpager.InfiniteViewPager;
 import com.zanlabs.widget.infiniteviewpager.indicator.CirclePageIndicator;
+
+import org.simple.eventbus.EventBus;
+import org.simple.eventbus.Subscriber;
 
 import java.util.List;
 
@@ -33,6 +40,10 @@ import io.rong.imkit.RongIM;
 import io.rong.imlib.model.UserInfo;
 
 public class FirstFragmentDestination extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
+
+    public static final String EVENT_TALK = "EVENT_TALK";
+    public static final String EVENT_JUMP_INFO = "EVENT_JUMP_INFO";
+
 
     @Bind(R.id.rv_destination)
     RecyclerView rvDestination;
@@ -65,6 +76,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
         }
 
         ButterKnife.bind(this, rootContainer);
+        EventBus.getDefault().register(this);
         return rootContainer;
     }
 
@@ -105,7 +117,7 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
 //
 //                    @Override
 //                    public void onBtclick(View v, int position) {
-//                        // ShowToast(position + "");
+//                        // showToast(position + "");
 //
 //                        chatWithGuide(position);
 //                        if (!isContain(position)) {
@@ -254,4 +266,38 @@ public class FirstFragmentDestination extends BaseFragment implements SwipeRefre
             viewPager.stopAutoScroll();
         super.onStop();
     }
+
+    @Subscriber(tag = EVENT_JUMP_INFO)
+    public void jumpInfo(Service service) {
+        Intent intent = new Intent(getContext(), ShowGuideDetailActivity.class);
+        intent.putExtra(Service.TAG, service);
+        startActivity(intent);
+    }
+
+    @Subscriber(tag = EVENT_TALK)
+    public void talk(MyUser user) {
+
+
+        RongIM.getInstance().startPrivateChat(getActivity(), user.getObjectId(),
+                "与" + user.getNick() + "聊天中");
+        if (!isContain(user.getObjectId())) {
+            Uri uri = Uri.parse(user.getAvatar());
+            App.getInsatnce()
+                    .getUserInfos()
+                    .add(new UserInfo(user.getObjectId(), user
+                            .getNick(), uri));
+        }
+    }
+
+    private boolean isContain(String objectId) {
+        List<UserInfo> userInfos = App.getInsatnce().getUserInfos();
+        for (UserInfo userInfo : userInfos) {
+            if (userInfo.getUserId().equals(objectId)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 }

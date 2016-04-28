@@ -81,7 +81,9 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.bartoszlipinski.recyclerviewheader/library/1.2.0/jars" />
@@ -110,13 +112,9 @@
     <orderEntry type="library" exported="" name="butterknife-7.0.1" level="project" />
     <orderEntry type="library" exported="" name="okio-1.6.0" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Wechat-2.6.3" level="project" />
-    <orderEntry type="library" exported="" name="ShareSDK-Wechat-Moments-2.6.3" level="project" />
-    <orderEntry type="library" exported="" name="universal-image-loader-1.9.4-with-sources" level="project" />
     <orderEntry type="library" exported="" name="MobTools" level="project" />
-    <orderEntry type="library" exported="" name="cardview-v7-23.0.1" level="project" />
     <orderEntry type="library" exported="" name="okhttp-2.5.0" level="project" />
     <orderEntry type="library" exported="" name="BmobIM_V1.1.9beta_20150820" level="project" />
-    <orderEntry type="library" exported="" name="ShareSDK-QQ-2.6.3" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-SinaWeibo-2.6.3" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="xUtils-2.6.14" level="project" />
@@ -124,12 +122,18 @@
     <orderEntry type="library" exported="" name="support-v4-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="BmobSDK_V3.4.4_0930" level="project" />
     <orderEntry type="library" exported="" name="library-1.2.0" level="project" />
-    <orderEntry type="library" exported="" name="ShareSDK-Core-2.6.3" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-Wechat-Core-2.6.3" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="glide-3.5.2" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="androideventbus-1.0.5.1" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="ShareSDK-QZone-2.6.3" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Wechat-Moments-2.6.3" level="project" />
+    <orderEntry type="library" exported="" name="universal-image-loader-1.9.4-with-sources" level="project" />
+    <orderEntry type="library" exported="" name="cardview-v7-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-QQ-2.6.3" level="project" />
+    <orderEntry type="library" exported="" name="design-23.1.1" level="project" />
+    <orderEntry type="library" exported="" name="ShareSDK-Core-2.6.3" level="project" />
     <orderEntry type="module" module-name="infiniteviewpager" exported="" />
     <orderEntry type="module" module-name="socialization" exported="" />
     <orderEntry type="module" module-name="base_library_pullToRefresh_chenyoca" exported="" />

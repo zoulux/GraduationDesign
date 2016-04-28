@@ -1,7 +1,5 @@
 package com.lyy.hitogether.activity;
 
-import com.lyy.hitogether.R;
-
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.text.Editable;
@@ -15,20 +13,22 @@ import android.view.animation.CycleInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.EditText;
 
-public class ClearActivity extends EditText implements OnFocusChangeListener,
+import com.lyy.hitogether.R;
+
+public class ClearEditText extends EditText implements OnFocusChangeListener,
 		TextWatcher {
 	private Drawable mClearDrawable;
 	private boolean hasFoucs;
 
-	public ClearActivity(Context context) {
+	public ClearEditText(Context context) {
 		this(context, null);
 	}
 
-	public ClearActivity(Context context, AttributeSet attrs) {
+	public ClearEditText(Context context, AttributeSet attrs) {
 		this(context, attrs, android.R.attr.editTextStyle);
 	}
 
-	public ClearActivity(Context context, AttributeSet attrs, int defStyle) {
+	public ClearEditText(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 		init();
 	}

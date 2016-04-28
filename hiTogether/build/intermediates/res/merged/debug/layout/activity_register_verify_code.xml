@@ -2,15 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
     android:gravity="center_horizontal"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="我们将发送手机验证码到"
+        android:text="我们将发送验证码到"
         android:textColor="@android:color/holo_blue_dark" />
 
     <TextView
@@ -20,19 +21,25 @@
         android:gravity="center"
         android:text="number" />
 
+
     <EditText
         android:id="@+id/id_et_verify_code"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
         android:gravity="center"
-        android:hint="验证码" />
+        android:hint="验证码"
+        android:paddingLeft="20dp" />
 
     <Button
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:id="@+id/id_bt_verify"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bt_login_shape"
         android:text="验证" />
 
 </LinearLayout>

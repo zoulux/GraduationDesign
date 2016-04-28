@@ -139,7 +139,7 @@ public class ShareMyTravalActivity extends BaseActivity {
 
 					@Override
 					public void onclick(View v) {
-						ShowToast("分享");
+						showToast("分享");
 
 					}
 				});

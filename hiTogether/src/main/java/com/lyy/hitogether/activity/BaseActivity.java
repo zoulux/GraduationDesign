@@ -41,7 +41,7 @@ public class BaseActivity extends Activity {
 
 	Toast mToast;
 
-	public void ShowToast(final int resId) {
+	public void showToast(final int resId) {
 		// runOnUiThread(new Runnable() {
 		//
 		// @Override
@@ -58,7 +58,7 @@ public class BaseActivity extends Activity {
 		// });
 	}
 
-	public void ShowToast(final String string) {
+	public void showToast(final String string) {
 		// runOnUiThread(new Runnable() {
 		//
 		// @Override

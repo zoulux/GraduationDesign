@@ -8,15 +8,9 @@ import java.util.List;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
-import cn.bmob.v3.listener.CloudCodeListener;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lyy.hitogether.R;
@@ -24,7 +18,6 @@ import com.lyy.hitogether.adapter.GroupAdapter;
 import com.lyy.hitogether.adapter.GroupAdapter.GroupListener;
 import com.lyy.hitogether.bean.Group;
 import com.lyy.hitogether.global.App;
-import com.lyy.hitogether.util.HttpUtils;
 
 public class GroupActivity extends BaseActivity implements GroupListener {
 
@@ -64,7 +57,7 @@ public class GroupActivity extends BaseActivity implements GroupListener {
 
 							@Override
 							public void onSuccess() {
-								ShowToast("加入成功");
+								showToast("加入成功");
 								RongIM.getInstance().startGroupChat(mContext,
 										group.getGroupId(), "标题");
 
@@ -72,7 +65,7 @@ public class GroupActivity extends BaseActivity implements GroupListener {
 
 							@Override
 							public void onError(ErrorCode errorCode) {
-								ShowToast("加入失败");
+								showToast("加入失败");
 
 							}
 						});

@@ -10,17 +10,17 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.lyy.hitogether.R;
+import com.lyy.hitogether.activity.fragment.first_fragment.FirstFragmentDestination;
 import com.lyy.hitogether.bean.Service;
-import com.lyy.hitogether.util.ToastUtil;
 
 import org.simple.eventbus.EventBus;
-import org.simple.eventbus.Subscriber;
 
 import java.util.Collections;
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Created by zoulux on 2016-04-19  1:15.
@@ -28,7 +28,7 @@ import butterknife.ButterKnife;
 public class DeatinationAdapter extends RecyclerView.Adapter<DeatinationAdapter.DeatiationViewHolder> {
 
     private static final String TAG = "DeatinationAdapter";
-    private static final String EVENT_CLICK = "EVENT_CLICK";
+
 
     public DeatinationAdapter() {
         EventBus.getDefault().register(this);
@@ -59,12 +59,8 @@ public class DeatinationAdapter extends RecyclerView.Adapter<DeatinationAdapter.
         return data.size();
     }
 
-    @Subscriber(tag = EVENT_CLICK)
-    public void startInfo(Service service) {
-        ToastUtil.message(service.getDestination());
-    }
 
-    final static class DeatiationViewHolder extends RecyclerView.ViewHolder {
+    final static class DeatiationViewHolder extends RecyclerView.ViewHolder{
         @Bind(R.id.id_third_fragment_scen_img)
         ImageView ivBg;
 
@@ -87,6 +83,7 @@ public class DeatinationAdapter extends RecyclerView.Adapter<DeatinationAdapter.
         RatingBar rbGrade;
 
         View itemView;
+        Service service;
 
         public DeatiationViewHolder(View itemView) {
             super(itemView);
@@ -95,6 +92,7 @@ public class DeatinationAdapter extends RecyclerView.Adapter<DeatinationAdapter.
         }
 
         public void bind(final Service service) {
+            this.service = service;
             Glide.with(itemView.getContext()).load(service.getShowImg()).into(ivBg);
             Glide.with(itemView.getContext()).load(service.getUser().getAvatar()).into(tvPhoto);
 
@@ -103,14 +101,20 @@ public class DeatinationAdapter extends RecyclerView.Adapter<DeatinationAdapter.
             tvPlace.setText(service.getDestination());
             rbGrade.setRating(service.getUser().getStar());
 
-            tvAppointment.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    EventBus.getDefault().post(service, EVENT_CLICK);
-                }
-            });
 
         }
+
+
+        @OnClick(R.id.id_fragment_bt_appointment)
+        public void talk() {
+            EventBus.getDefault().post(service.getUser(), FirstFragmentDestination.EVENT_TALK);
+        }
+
+        @OnClick(R.id.id_third_fragment_scen_img)
+        public void jumpInfo() {
+            EventBus.getDefault().post(service, FirstFragmentDestination.EVENT_JUMP_INFO);
+        }
+
     }
 
 }

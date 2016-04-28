@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyman="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <com.lyy.hitogether.view.CustomTitleBarView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_blue"
+        lyman:centerText=""
+        lyman:centerTextColor="@android:color/white"
+        lyman:centerTextSize="20sp"
+        lyman:centerType="text"
+        lyman:leftImagePadding="2dp"
+        lyman:leftImageSource="@drawable/back_indicator"
+        lyman:leftType="image"
+        lyman:rightType="text"
+        lyman:rightTextColor="@android:color/white"
+        lyman:rightTextSize = "16sp"
+        lyman:rightTextPaddingRight = "10sp"
+        />
 
     <fragment
         android:id="@+id/conversation"

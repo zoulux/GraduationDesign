@@ -92,10 +92,10 @@
                         android:layout_height="fill_parent"
                         android:layout_weight="1"
                         android:padding="@dimen/activity_main_ChangeColorIconWithText_padding"
-                        lyman:icon="@drawable/ic_menu_allfriends"
-                        lyman:text="首页"
-                        lyman:text_size="@dimen/activity_main_ChangeColorIconWithText_text_size"
-                        lyman:color="@color/activity_main_ChangeColorIconWithText_lymain_color" />
+                        lyman:icon1="@drawable/ic_menu_allfriends"
+                        lyman:text1="首页"
+                        lyman:text_size1="@dimen/activity_main_ChangeColorIconWithText_text_size"
+                        lyman:color1="@color/activity_main_ChangeColorIconWithText_lymain_color" />
 
                     <com.lyy.hitogether.view.ChangeColorIconWithText
                         android:id="@+id/id_two"
@@ -103,10 +103,10 @@
                         android:layout_height="fill_parent"
                         android:layout_weight="1"
                         android:padding="@dimen/activity_main_ChangeColorIconWithText_padding"
-                        lyman:icon="@drawable/ic_menu_friendslist"
-                        lyman:text="@string/activity_main_ChangeColorIconWithText_id_one_lyman_text"
-                        lyman:text_size="@dimen/activity_main_ChangeColorIconWithText_text_size"
-                        lyman:color="@color/activity_main_ChangeColorIconWithText_lymain_color" />
+                        lyman:icon1="@drawable/ic_menu_friendslist"
+                        lyman:text1="@string/activity_main_ChangeColorIconWithText_id_one_lyman_text"
+                        lyman:text_size1="@dimen/activity_main_ChangeColorIconWithText_text_size"
+                        lyman:color1="@color/activity_main_ChangeColorIconWithText_lymain_color" />
 
                     <com.lyy.hitogether.view.ChangeColorIconWithText
                         android:id="@+id/id_three"
@@ -114,10 +114,10 @@
                         android:layout_height="fill_parent"
                         android:layout_weight="1"
                         android:padding="@dimen/activity_main_ChangeColorIconWithText_padding"
-                        lyman:icon="@drawable/ic_menu_emoticons"
-                        lyman:text="@string/activity_main_ChangeColorIconWithText_id_two_lyman_text"
-                        lyman:text_size="@dimen/activity_main_ChangeColorIconWithText_text_size"
-                        lyman:color="@color/activity_main_ChangeColorIconWithText_lymain_color" />
+                        lyman:icon1="@drawable/ic_menu_emoticons"
+                        lyman:text1="@string/activity_main_ChangeColorIconWithText_id_two_lyman_text"
+                        lyman:text_size1="@dimen/activity_main_ChangeColorIconWithText_text_size"
+                        lyman:color1="@color/activity_main_ChangeColorIconWithText_lymain_color" />
 
                     <com.lyy.hitogether.view.ChangeColorIconWithText
                         android:id="@+id/id_four"
@@ -125,10 +125,10 @@
                         android:layout_height="fill_parent"
                         android:layout_weight="1"
                         android:padding="@dimen/activity_main_ChangeColorIconWithText_padding"
-                        lyman:icon="@drawable/ic_menu_allfriends"
-                        lyman:text="@string/activity_main_ChangeColorIconWithText_id_three_lyman_text"
-                        lyman:text_size="@dimen/activity_main_ChangeColorIconWithText_text_size"
-                        lyman:color="@color/activity_main_ChangeColorIconWithText_lymain_color" />
+                        lyman:icon1="@drawable/ic_menu_allfriends"
+                        lyman:text1="@string/activity_main_ChangeColorIconWithText_id_three_lyman_text"
+                        lyman:text_size1="@dimen/activity_main_ChangeColorIconWithText_text_size"
+                        lyman:color1="@color/activity_main_ChangeColorIconWithText_lymain_color" />
                 </LinearLayout>
             </LinearLayout>
         </FrameLayout>

@@ -153,7 +153,7 @@ public class ShowSceneDetailsActivity extends BaseActivity implements
 
 					@Override
 					public void onItemClick(View v, int pos) {
-						ShowToast(pos + "");
+						showToast(pos + "");
 					}
 				});
 		mLayoutTravalers
@@ -161,7 +161,7 @@ public class ShowSceneDetailsActivity extends BaseActivity implements
 
 					@Override
 					public void onItemClick(View v, int pos) {
-						ShowToast(pos + "");
+						showToast(pos + "");
 					}
 				});
 		bar.setOnLeftBarViewClickListener(new onLeftBarViewClickListener() {

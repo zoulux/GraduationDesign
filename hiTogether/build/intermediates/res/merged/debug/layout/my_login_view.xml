@@ -6,7 +6,7 @@
     android:background="@drawable/login_bg"
     android:orientation="vertical" >
 
-    <com.lyy.hitogether.activity.ClearActivity
+    <com.lyy.hitogether.activity.ClearEditText
         android:id="@+id/id_userName"
         style="?android:attr/textViewStyle"
         android:layout_width="match_parent"
@@ -18,9 +18,9 @@
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         android:singleLine="true" >
-    </com.lyy.hitogether.activity.ClearActivity>
+    </com.lyy.hitogether.activity.ClearEditText>
 
-    <com.lyy.hitogether.activity.ClearActivity
+    <com.lyy.hitogether.activity.ClearEditText
         android:id="@+id/id_userPwd"
         style="?android:attr/textViewStyle"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:paddingRight="15dp"
         android:password="true"
         android:singleLine="true" >
-    </com.lyy.hitogether.activity.ClearActivity>
+    </com.lyy.hitogether.activity.ClearEditText>
 
     <Button
         android:id="@+id/id_loginBt"

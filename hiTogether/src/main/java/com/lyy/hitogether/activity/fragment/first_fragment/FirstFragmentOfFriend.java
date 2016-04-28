@@ -1,6 +1,7 @@
 package com.lyy.hitogether.activity.fragment.first_fragment;
 
 import android.content.Context;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Message;
 import android.support.annotation.Nullable;
@@ -18,6 +19,7 @@ import com.lyy.hitogether.R;
 import com.lyy.hitogether.activity.fragment.BaseFragment;
 import com.lyy.hitogether.adapter.FriendAdapter;
 import com.lyy.hitogether.bean.Demand;
+import com.lyy.hitogether.bean.MyUser;
 import com.lyy.hitogether.global.App;
 import com.lyy.hitogether.util.ToastUtil;
 
@@ -29,11 +31,14 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import cn.bmob.v3.listener.UpdateListener;
+import io.rong.imkit.RongIM;
+import io.rong.imlib.model.UserInfo;
 
 public class FirstFragmentOfFriend extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
 
     private static final String TAG = "FirstFragmentOfFriend";
     public static final String EVENT_DEMAND = "EVENT_DEMAND";
+    public static final String EVENT_FRIEND_TALK = "EVENT_FRIEND_TALK";
     private View rootContainer;
     @Bind(R.id.rv_friend)
     RecyclerView recyclerView;
@@ -129,7 +134,32 @@ public class FirstFragmentOfFriend extends BaseFragment implements SwipeRefreshL
 
 
         }
+    }
 
+
+    @Subscriber(tag = EVENT_FRIEND_TALK)
+    public void talk(int pos){
+        MyUser user = adapter.getData().get(pos).getUser();
+
+        RongIM.getInstance().startPrivateChat(getActivity(), user.getObjectId(),
+                "与" + user.getNick() + "聊天中");
+        if (!isContain(user.getObjectId())) {
+            Uri uri = Uri.parse(user.getAvatar());
+            App.getInsatnce()
+                    .getUserInfos()
+                    .add(new UserInfo(user.getObjectId(), user
+                            .getNick(), uri));
+        }
 
     }
+    private boolean isContain(String objectId) {
+        List<UserInfo> userInfos = App.getInsatnce().getUserInfos();
+        for (UserInfo userInfo : userInfos) {
+            if (userInfo.getUserId().equals(objectId)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
